@@ -23,6 +23,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(GuideMe
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
+        file_management.h file_management.cpp
+        build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/transportation_data.txt
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GuideMe APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
