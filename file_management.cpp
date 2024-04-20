@@ -3,20 +3,13 @@
 #include <fstream>
 #include <iostream>
 #include <string>
-#include <vector>
 #include <sstream>
 #include<unordered_map>
 using namespace std;
 
-struct Edge {
-    string transportation;
-    int cost;
-};
-
-unordered_map<string,unordered_map<string, vector<Edge>>> transportationMap;
 
 
-void file_management::test(){
+void file_management::test(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap){
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {
             cout << source_data.first << " "
@@ -28,7 +21,8 @@ void file_management::test(){
             cout<<endl;
         }
     }
-} void file_management::  read()
+
+} void file_management::  read(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap)
 {
     ifstream data_read("transportation_data.txt");
     string line;
@@ -43,8 +37,9 @@ void file_management::test(){
     }
     data_read.close();
 }
-void file_management::write()
+void file_management::write(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap)
 {
+
     ofstream data_write("transportation_data.txt");
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {
@@ -58,7 +53,7 @@ void file_management::write()
         }
     }
     data_write.close();
-}
+ }
 
 
 
