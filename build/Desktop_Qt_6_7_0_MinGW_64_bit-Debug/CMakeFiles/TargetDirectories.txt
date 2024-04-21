@@ -1,4 +1,5 @@
 C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/GuideMe.dir
+C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/GuideMe_qmlimportscan.dir
 C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
 C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
 C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
