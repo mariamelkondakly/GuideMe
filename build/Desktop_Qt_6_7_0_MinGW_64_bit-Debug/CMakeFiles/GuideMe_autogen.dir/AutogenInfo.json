@@ -817,6 +817,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/editingfunctionalities.h",
+			"MU",
+			"EWIEGA46WW/moc_editingfunctionalities.cpp",
+			null
+		],
+		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/file_management.h",
 			"MU",
 			"EWIEGA46WW/moc_file_management.cpp",
@@ -914,6 +920,11 @@
 	"SETTINGS_FILE" : "C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/GuideMe_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/editingfunctionalities.cpp",
+			"MU",
+			null
+		],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/file_management.cpp", "MU", null ],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/main.cpp", "MU", null ],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/mainwindow.cpp", "MU", null ]

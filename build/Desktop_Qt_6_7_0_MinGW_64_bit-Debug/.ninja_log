@@ -1,23 +1,13 @@
 # ninja log v5
-16	144	7352569236814188	GuideMe_autogen/timestamp	5ec054797fdedd7d
-16	144	7352569236814188	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-155	2085	7352569256213722	CMakeFiles/GuideMe.dir/mainwindow.cpp.obj	9394950ca8cfb564
-16	144	7352569236814188	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
-759	3488	7352568049664102	CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj	c1bc9be92d1b09
-16	144	7352569236814188	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-762	3486	7352568049664102	CMakeFiles/GuideMe.dir/main.cpp.obj	27134a8d348575ef
-2085	2356	7352569258814454	GuideMe.exe	c463bc4cad25482f
-768	3515	7352568049944996	CMakeFiles/GuideMe.dir/file_management.cpp.obj	fbed78164c366964
-3	922	7354356509238809	build.ninja	cb9e246314751ea7
+5	111	7354392926180881	GuideMe_autogen/timestamp	5ec054797fdedd7d
+5	111	7354392926180881	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+124	1640	7354392941464333	CMakeFiles/GuideMe.dir/mainwindow.cpp.obj	8f5830fd02ed9a31
+5	111	7354392926180881	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+494	2279	7354356532891994	CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj	d5ec128c595e8834
+5	111	7354392926180881	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+492	2309	7354356533197452	CMakeFiles/GuideMe.dir/main.cpp.obj	abad94015c5083c1
+1794	2024	7354392945260959	GuideMe.exe	2527015828ffc945
+122	1794	7354392943005220	CMakeFiles/GuideMe.dir/file_management.cpp.obj	30e3efbde3ca0817
+112	955	7354425995342475	build.ninja	cb9e246314751ea7
 6	109	7354356501470904	.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake	1ae7071c69bdb8fb
 6	109	7354356501470904	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake	1ae7071c69bdb8fb
-112	955	7354356509238809	build.ninja	cb9e246314751ea7
-17	492	7354356514556918	GuideMe_autogen/timestamp	5ec054797fdedd7d
-17	492	7354356514556918	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-17	492	7354356514556918	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
-17	492	7354356514556918	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-494	2279	7354356532891994	CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj	d5ec128c595e8834
-496	2282	7354356532927168	CMakeFiles/GuideMe.dir/mainwindow.cpp.obj	8f5830fd02ed9a31
-498	2292	7354356533022232	CMakeFiles/GuideMe.dir/file_management.cpp.obj	30e3efbde3ca0817
-492	2309	7354356533197452	CMakeFiles/GuideMe.dir/main.cpp.obj	abad94015c5083c1
-2310	2686	7354356536938108	GuideMe.exe	2527015828ffc945
