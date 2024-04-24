@@ -1,0 +1,11 @@
+# ninja log v5
+9	115	7356084812709130	GuideMe_autogen/timestamp	ca1c83fa9782d04e
+120	1927	7356084830813875	CMakeFiles/GuideMe.dir/mainwindow.cpp.obj	1bb1ced6be462bec
+9	115	7356084812709130	GuideMe_autogen/mocs_compilation.cpp	ca1c83fa9782d04e
+9	115	7356084812709130	C:/Users/dell/Desktop/GuideMe/build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/GuideMe_autogen/timestamp	ca1c83fa9782d04e
+124	2132	7356084832855382	CMakeFiles/GuideMe.dir/file_management.cpp.obj	d19719506e155a23
+9	115	7356084812709130	C:/Users/dell/Desktop/GuideMe/build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/GuideMe_autogen/mocs_compilation.cpp	ca1c83fa9782d04e
+273	1754	7353430757929764	CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj	5d1dcf59b250fa1c
+277	1765	7353430758040638	CMakeFiles/GuideMe.dir/main.cpp.obj	5d87d082e5c2bf75
+2133	2337	7356084834604026	GuideMe.exe	3ef12ef911b61020
+5	504	7356088931233720	build.ninja	285ac8967535fa08

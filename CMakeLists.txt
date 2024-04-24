@@ -24,10 +24,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
         file_management.h file_management.cpp
-        build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/transportation_data.txt
+
         .gitignore CMakeLists.txt CMakeLists.txt.user file_management.cpp file_management.h
-        build/Desktop_Qt_6_6_3_MSVC2019_64bit-Debug/transportation_data.txt
+
         build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/transportation_data.txt
+        dfs.h dfs.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GuideMe APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
