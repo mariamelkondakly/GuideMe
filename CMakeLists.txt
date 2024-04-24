@@ -15,19 +15,27 @@ find_package(Qt6 COMPONENTS Qml Quick REQUIRED)
 
 set(PROJECT_SOURCES
         main.cpp
-        mainwindow.cpp
-        mainwindow.h
-        mainwindow.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(GuideMe
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        file_management.h file_management.cpp
-        .gitignore CMakeLists.txt CMakeLists.txt.user file_management.cpp file_management.h
+        file_management.h
+        file_management.cpp
+        .gitignore CMakeLists.txt CMakeLists.txt.user
         build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/transportation_data.txt
-        editingfunctionalities.h editingfunctionalities.cpp
+        editingfunctionalities.cpp
+        editingfunctionalities.h
+        editorialOptions.h
+        editorialOptions.cpp
+        editorialOptions.ui
+        CSS_styling/PushButton.css
+        gui_management.h
+        gui_management.cpp
+        CSS_styling/background.css
+        CSS_styling/titleLabel.css
+        Assets/aubergine_road.jpg
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GuideMe APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
