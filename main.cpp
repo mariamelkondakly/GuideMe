@@ -1,6 +1,6 @@
-#include "mainwindow.h"
 #include <QApplication>
 #include"file_management.h"
+#include "editorialOptions.h"
 //#include <iostream>
 #include <string>
 #include <vector>
@@ -14,8 +14,7 @@ int main(int argc, char* argv[]) {
     file_management::write(transportationMap);
 
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+    editorialFunctions f;
+    f.show();
     return a.exec();
-    return 0;
 }

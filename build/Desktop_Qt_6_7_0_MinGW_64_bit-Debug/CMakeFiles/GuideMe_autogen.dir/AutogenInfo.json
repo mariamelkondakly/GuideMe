@@ -823,15 +823,21 @@
 			null
 		],
 		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/editorialOptions.h",
+			"MU",
+			"EWIEGA46WW/moc_editorialOptions.cpp",
+			null
+		],
+		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/file_management.h",
 			"MU",
 			"EWIEGA46WW/moc_file_management.cpp",
 			null
 		],
 		[
-			"C:/Users/MARIAM/qt Projects/GuideMe/mainwindow.h",
+			"C:/Users/MARIAM/qt Projects/GuideMe/gui_management.h",
 			"MU",
-			"EWIEGA46WW/moc_mainwindow.cpp",
+			"EWIEGA46WW/moc_gui_management.cpp",
 			null
 		]
 	],
@@ -925,9 +931,14 @@
 			"MU",
 			null
 		],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/editorialOptions.cpp",
+			"MU",
+			null
+		],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/file_management.cpp", "MU", null ],
-		[ "C:/Users/MARIAM/qt Projects/GuideMe/main.cpp", "MU", null ],
-		[ "C:/Users/MARIAM/qt Projects/GuideMe/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/gui_management.cpp", "MU", null ],
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/main.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

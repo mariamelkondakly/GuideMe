@@ -116,6 +116,8 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.7.0/mingw_64/include/QtGui/QPalette \
+  C:/Qt/6.7.0/mingw_64/include/QtGui/QPixmap \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qbrush.h \
@@ -141,10 +143,8 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qtransform.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMainWindow \
-  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -906,9 +906,13 @@ GuideMe_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   GuideMe_autogen/moc_predefs.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.ui \
   C:/Users/MARIAM/qt\ Projects/GuideMe/file_management.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/file_management.h \
-  C:/Users/MARIAM/qt\ Projects/GuideMe/main.cpp \
-  C:/Users/MARIAM/qt\ Projects/GuideMe/mainwindow.cpp \
-  C:/Users/MARIAM/qt\ Projects/GuideMe/mainwindow.h \
-  C:/Users/MARIAM/qt\ Projects/GuideMe/mainwindow.ui
+  C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/main.cpp
