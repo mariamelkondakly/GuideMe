@@ -42,6 +42,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         citiesSelection.h citiesSelection.cpp citiesSelection.ui
         CSS_styling/textfields.css
         CSS_styling/normalLabels.css
+        CSS_styling/warningLabel.css
+        transportationdisplay.h transportationdisplay.cpp transportationdisplay.ui
+        CSS_styling/transportationWidgets.css
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GuideMe APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

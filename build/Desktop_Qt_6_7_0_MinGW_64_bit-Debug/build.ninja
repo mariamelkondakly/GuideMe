@@ -105,6 +105,14 @@ build CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj: CXX_COMPILER__GuideMe_unsc
   OBJECT_DIR = CMakeFiles\GuideMe.dir
   OBJECT_FILE_DIR = CMakeFiles\GuideMe.dir
 
+build CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj: CXX_COMPILER__GuideMe_unscanned_Debug C$:/Users/MARIAM/qt$ Projects/GuideMe/transportationdisplay.cpp || cmake_object_order_depends_target_GuideMe
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NETWORK_LIB -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_UITOOLS_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\GuideMe.dir\transportationdisplay.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I"C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/include" -isystem C:/Qt/6.7.0/mingw_64/include/QtCore -isystem C:/Qt/6.7.0/mingw_64/include -isystem C:/Qt/6.7.0/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.0/mingw_64/include/QtWidgets -isystem C:/Qt/6.7.0/mingw_64/include/QtGui -isystem C:/Qt/6.7.0/mingw_64/include/QtQml -isystem C:/Qt/6.7.0/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.0/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.0/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.0/mingw_64/include/QtQuick -isystem C:/Qt/6.7.0/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.0/mingw_64/include/QtOpenGL -isystem C:/Qt/6.7.0/mingw_64/include/QtUiTools -isystem C:/Qt/6.7.0/mingw_64/include/QtOpenGLWidgets
+  OBJECT_DIR = CMakeFiles\GuideMe.dir
+  OBJECT_FILE_DIR = CMakeFiles\GuideMe.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target GuideMe
@@ -113,7 +121,7 @@ build CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj: CXX_COMPILER__GuideMe_unsc
 #############################################
 # Link the executable GuideMe.exe
 
-build GuideMe.exe: CXX_EXECUTABLE_LINKER__GuideMe_Debug CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj CMakeFiles/GuideMe.dir/main.cpp.obj CMakeFiles/GuideMe.dir/file_management.cpp.obj CMakeFiles/GuideMe.dir/editingfunctionalities.cpp.obj CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj CMakeFiles/GuideMe.dir/gui_management.cpp.obj CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.0/mingw_64/lib/libQt6UiTools.a C$:/Qt/6.7.0/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.0/mingw_64/lib/libQt6OpenGLWidgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || GuideMe_autogen GuideMe_autogen_timestamp_deps GuideMe_qmlimportscan
+build GuideMe.exe: CXX_EXECUTABLE_LINKER__GuideMe_Debug CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj CMakeFiles/GuideMe.dir/main.cpp.obj CMakeFiles/GuideMe.dir/file_management.cpp.obj CMakeFiles/GuideMe.dir/editingfunctionalities.cpp.obj CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj CMakeFiles/GuideMe.dir/gui_management.cpp.obj CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj | C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.0/mingw_64/lib/libQt6UiTools.a C$:/Qt/6.7.0/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.0/mingw_64/lib/libQt6OpenGLWidgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a || GuideMe_autogen GuideMe_autogen_timestamp_deps GuideMe_qmlimportscan
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a  C:/Qt/6.7.0/mingw_64/lib/libQt6UiTools.a  C:/Qt/6.7.0/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a  C:/Qt/6.7.0/mingw_64/lib/libQt6QmlBuiltins.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Network.a  -lws2_32  -luser32  C:/Qt/6.7.0/mingw_64/lib/libQt6OpenGLWidgets.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.7.0/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.0/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -206,7 +214,7 @@ build GuideMe_autogen_timestamp_deps: phony CMakeFiles/GuideMe_autogen_timestamp
 #############################################
 # Utility command for GuideMe_autogen
 
-build GuideMe_autogen: phony CMakeFiles/GuideMe_autogen GuideMe_autogen/include/ui_editorialOptions.h GuideMe_autogen/include/ui_citiesSelection.h GuideMe_autogen/timestamp GuideMe_autogen/mocs_compilation.cpp GuideMe_autogen_timestamp_deps GuideMe_qmlimportscan
+build GuideMe_autogen: phony CMakeFiles/GuideMe_autogen GuideMe_autogen/include/ui_editorialOptions.h GuideMe_autogen/include/ui_citiesSelection.h GuideMe_autogen/include/ui_transportationdisplay.h GuideMe_autogen/timestamp GuideMe_autogen/mocs_compilation.cpp GuideMe_autogen_timestamp_deps GuideMe_qmlimportscan
 
 
 #############################################
@@ -237,13 +245,13 @@ build .qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake | ${cmake_ninja_workdir}.
 #############################################
 # Phony custom command for CMakeFiles\GuideMe_autogen_timestamp_deps
 
-build CMakeFiles/GuideMe_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/GuideMe_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.0/mingw_64/lib/libQt6UiTools.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a
+build CMakeFiles/GuideMe_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/GuideMe_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6UiTools.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\GuideMe_autogen
 
-build CMakeFiles/GuideMe_autogen GuideMe_autogen/include/ui_editorialOptions.h GuideMe_autogen/include/ui_citiesSelection.h | ${cmake_ninja_workdir}CMakeFiles/GuideMe_autogen ${cmake_ninja_workdir}GuideMe_autogen/include/ui_editorialOptions.h ${cmake_ninja_workdir}GuideMe_autogen/include/ui_citiesSelection.h: phony GuideMe_autogen/timestamp || GuideMe_autogen_timestamp_deps GuideMe_qmlimportscan
+build CMakeFiles/GuideMe_autogen GuideMe_autogen/include/ui_editorialOptions.h GuideMe_autogen/include/ui_citiesSelection.h GuideMe_autogen/include/ui_transportationdisplay.h | ${cmake_ninja_workdir}CMakeFiles/GuideMe_autogen ${cmake_ninja_workdir}GuideMe_autogen/include/ui_editorialOptions.h ${cmake_ninja_workdir}GuideMe_autogen/include/ui_citiesSelection.h ${cmake_ninja_workdir}GuideMe_autogen/include/ui_transportationdisplay.h: phony GuideMe_autogen/timestamp || GuideMe_autogen_timestamp_deps GuideMe_qmlimportscan
 
 # =============================================================================
 # Target aliases.

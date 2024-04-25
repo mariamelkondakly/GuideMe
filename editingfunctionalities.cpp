@@ -2,7 +2,6 @@
 
 
 EditingFunctionalities::EditingFunctionalities() {}
-
 //Add function
 void EditingFunctionalities::add(Edge e1,unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap,string source,string destination){
         //check source and destaination waiting

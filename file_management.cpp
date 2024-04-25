@@ -9,7 +9,7 @@ using namespace std;
 
 
 unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
-
+QDir file_management::dir("C:/Users/MARIAM/qt Projects");
 void file_management::test(){
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {

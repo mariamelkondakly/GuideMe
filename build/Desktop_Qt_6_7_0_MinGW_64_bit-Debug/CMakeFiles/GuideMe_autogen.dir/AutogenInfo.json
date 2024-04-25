@@ -919,6 +919,12 @@
 			"MU",
 			"EWIEGA46WW/moc_gui_management.cpp",
 			null
+		],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/transportationdisplay.h",
+			"MU",
+			"EWIEGA46WW/moc_transportationdisplay.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1023,7 +1029,12 @@
 		],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/file_management.cpp", "MU", null ],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/gui_management.cpp", "MU", null ],
-		[ "C:/Users/MARIAM/qt Projects/GuideMe/main.cpp", "MU", null ]
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/main.cpp", "MU", null ],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/transportationdisplay.cpp",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

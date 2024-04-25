@@ -1,7 +1,15 @@
 #ifndef CITIESSELECTION_H
 #define CITIESSELECTION_H
 #include <QWidget>
-
+#include "GUI_management.h"
+#include <QDir>
+#include <QApplication>
+#include "editingfunctionalities.h"
+#include<QWidget>
+#include<QString>
+#include<QFile>
+#include<iostream>
+#include"transportationdisplay.h"
 namespace Ui {
 class citiesSelection;
 }
