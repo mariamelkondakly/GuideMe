@@ -1,3 +1,3 @@
-Sohag Zagazig Bus 300 Microbus 150 
 Sohag Suez Bus 100 Microbus 50 
+Sohag Zagazig Bus 300 Microbus 150 
 Sohag Tanta Bus 200 Microbus 100 

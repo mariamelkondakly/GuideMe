@@ -46,6 +46,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         transportationdisplay.h transportationdisplay.cpp transportationdisplay.ui
         CSS_styling/transportationWidgets.css
         traversal.h traversal.cpp
+        welcome.h welcome.cpp welcome.ui
+        CSS_styling/welcometitle.css
 
     )
 # Define target properties for Android with Qt 6 as:

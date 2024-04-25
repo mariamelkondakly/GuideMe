@@ -1,9 +1,9 @@
 #include <QApplication>
 #include"file_management.h"
 #include "editorialOptions.h"
-
 #include "citiesSelection.h"
 #include "traversal.h"
+#include "welcome.h"
 //#include <iostream>
 #include "transportationdisplay.h"
 using namespace std;
@@ -17,7 +17,7 @@ int main(int argc, char* argv[]) {
     Traversal::Traversall(file_management::transportationMap,"Sohag");
 
     QApplication a(argc, argv);
-    editorialFunctions f;
+    welcome f;
     f.show();
     return a.exec();
 }

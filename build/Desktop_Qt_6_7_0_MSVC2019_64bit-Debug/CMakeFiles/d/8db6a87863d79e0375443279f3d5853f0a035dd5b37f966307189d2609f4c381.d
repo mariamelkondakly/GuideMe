@@ -1,4 +1,7 @@
 GuideMe_autogen/timestamp: \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/QDir \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/QFile \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/QString \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/q20type_traits.h \
@@ -17,6 +20,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qbytearrayalgorithms.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qbytearrayview.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcalendar.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qchar.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcompare.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcompare_impl.h \
@@ -28,11 +32,22 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcontainerinfo.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcontiguouscache.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcoreapplication.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcoreapplication_platform.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qcoreevent.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qdatetime.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qdebug.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qdir.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qendian.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qeventloop.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qexceptionhandling.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qfile.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qfiledevice.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qfileinfo.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qflags.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qfloat16.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qforeach.h \
@@ -43,12 +58,14 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qglobalstatic.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qhash.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qhashfunctions.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qiodevice.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qiterable.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qiterator.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qline.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qlist.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qlocale.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qlogging.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qmalloc.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qmap.h \
@@ -58,6 +75,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qmetatype.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qminmax.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qnamespace.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qnativeinterface.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qnumeric.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qobject.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qobject_impl.h \
@@ -100,6 +118,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtimezone.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtnoop.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtpreprocessorsupport.h \
@@ -126,8 +145,11 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qfont.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qfontinfo.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qfontmetrics.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtGui/qguiapplication.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtGui/qguiapplication_platform.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qicon.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qimage.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtGui/qinputmethod.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpalette.h \
@@ -143,7 +165,9 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qtransform.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qwindowdefs_win.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QApplication \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QWidget \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qapplication.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
@@ -1097,5 +1121,11 @@ GuideMe_autogen/timestamp: \
   C:/Users/dell/Desktop/GuideMe/gui_management.cpp \
   C:/Users/dell/Desktop/GuideMe/gui_management.h \
   C:/Users/dell/Desktop/GuideMe/main.cpp \
+  C:/Users/dell/Desktop/GuideMe/transportationdisplay.cpp \
+  C:/Users/dell/Desktop/GuideMe/transportationdisplay.h \
+  C:/Users/dell/Desktop/GuideMe/transportationdisplay.ui \
   C:/Users/dell/Desktop/GuideMe/traversal.cpp \
-  C:/Users/dell/Desktop/GuideMe/traversal.h
+  C:/Users/dell/Desktop/GuideMe/traversal.h \
+  C:/Users/dell/Desktop/GuideMe/welcome.cpp \
+  C:/Users/dell/Desktop/GuideMe/welcome.h \
+  C:/Users/dell/Desktop/GuideMe/welcome.ui
