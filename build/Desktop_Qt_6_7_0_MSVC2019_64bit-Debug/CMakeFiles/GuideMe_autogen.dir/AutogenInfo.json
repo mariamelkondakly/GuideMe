@@ -1360,9 +1360,21 @@
 			null
 		],
 		[
+			"C:/Users/dell/Desktop/GuideMe/transportationdisplay.h",
+			"MU",
+			"EWIEGA46WW/moc_transportationdisplay.cpp",
+			null
+		],
+		[
 			"C:/Users/dell/Desktop/GuideMe/traversal.h",
 			"MU",
 			"EWIEGA46WW/moc_traversal.cpp",
+			null
+		],
+		[
+			"C:/Users/dell/Desktop/GuideMe/welcome.h",
+			"MU",
+			"EWIEGA46WW/moc_welcome.cpp",
 			null
 		]
 	],
@@ -1449,7 +1461,9 @@
 		[ "C:/Users/dell/Desktop/GuideMe/file_management.cpp", "MU", null ],
 		[ "C:/Users/dell/Desktop/GuideMe/gui_management.cpp", "MU", null ],
 		[ "C:/Users/dell/Desktop/GuideMe/main.cpp", "MU", null ],
-		[ "C:/Users/dell/Desktop/GuideMe/traversal.cpp", "MU", null ]
+		[ "C:/Users/dell/Desktop/GuideMe/transportationdisplay.cpp", "MU", null ],
+		[ "C:/Users/dell/Desktop/GuideMe/traversal.cpp", "MU", null ],
+		[ "C:/Users/dell/Desktop/GuideMe/welcome.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
