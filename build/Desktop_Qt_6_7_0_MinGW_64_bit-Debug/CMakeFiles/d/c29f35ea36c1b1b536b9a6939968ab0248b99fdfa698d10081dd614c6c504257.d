@@ -999,4 +999,6 @@ GuideMe_autogen/timestamp: \
   C:/Users/MARIAM/qt\ Projects/GuideMe/main.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.h \
-  C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.ui
+  C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.ui \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/traversal.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/traversal.h

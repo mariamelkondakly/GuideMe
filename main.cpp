@@ -14,10 +14,7 @@ int main(int argc, char* argv[]) {
     file_management::read();
     // file_management::test();
     file_management::write();
-    file_management::read(transportationMap);
-    file_management::test(transportationMap);
-    file_management::write(transportationMap);
-    Traversal::Traversall(transportationMap,"Sohag");
+    Traversal::Traversall(file_management::transportationMap,"Sohag");
 
     QApplication a(argc, argv);
     editorialFunctions f;
