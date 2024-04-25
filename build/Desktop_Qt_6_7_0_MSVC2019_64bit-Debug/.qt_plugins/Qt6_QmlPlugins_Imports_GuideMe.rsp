@@ -1,0 +1,9 @@
+-rootPath
+C:/Users/dell/Desktop/GuideMe
+-cmake-output
+-output-file
+C:/Users/dell/Desktop/GuideMe/build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake
+-importPath
+C:/Users/dell/Desktop/GuideMe/build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug
+-importPath
+C:/Qt/6.7.0/msvc2019_64/./qml
