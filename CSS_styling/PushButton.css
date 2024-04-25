@@ -1,12 +1,14 @@
 QPushButton
 {background-color: rgba(201, 243, 253,150);
 color: #1E2D4C;
-height:60px;
-margin:50px;
+height:40px;
+margin:40px;
+width:30px;
 background-image: url( background-image: );
 background-repeat: no-repeat;
 font-family:sans-serif;
 font-weight:bold;
+font-size:25px;
 border: 2px solid #1E2D4C;
 }
 

@@ -201,6 +201,7 @@
 #define __REGISTER_PREFIX__ 
 #define __UINT16_MAX__ 0xffff
 #define __cdecl __attribute__((__cdecl__))
+#define QT_UITOOLS_LIB 1
 #define __LDBL_HAS_INFINITY__ 1
 #define __FLT32_MIN__ 1.17549435082228750796873653722224568e-38F32
 #define __UINT8_TYPE__ unsigned char
@@ -230,6 +231,7 @@
 #define __DEC64_EPSILON__ 1E-15DD
 #define __ORDER_PDP_ENDIAN__ 3412
 #define __DEC128_MIN_EXP__ (-6142)
+#define QT_OPENGLWIDGETS_LIB 1
 #define __INT_FAST32_TYPE__ int
 #define __UINT_LEAST16_TYPE__ short unsigned int
 #define __DBL_HAS_DENORM__ 1

@@ -1,6 +1,7 @@
 #include <QApplication>
 #include"file_management.h"
 #include "editorialOptions.h"
+#include "citiesSelection.h"
 //#include <iostream>
 #include <string>
 #include <vector>

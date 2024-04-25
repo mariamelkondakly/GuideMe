@@ -12,12 +12,19 @@ editorialFunctions::editorialFunctions(QWidget *parent)
     QDir dir("C:/Users/MARIAM/qt Projects"); //change it to make it run on your pc
     GUI_management::applyStylesheet(ui->widget, dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
     GUI_management::applyStylesheet(ui->label, dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->pushButton, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->pushButton_2, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->pushButton_3, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-
+    GUI_management::applyStylesheet(ui->DeleteButton, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
+    GUI_management::applyStylesheet(ui->AddButton, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
+    GUI_management::applyStylesheet(ui->EditButton, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
 }
 editorialFunctions::~editorialFunctions()
 {
     delete ui;
 }
+
+void editorialFunctions::on_DeleteButton_clicked()
+{    hide();
+    citiesSelection *window=new citiesSelection();
+    window->show();
+
+}
+
