@@ -1,0 +1,9 @@
+QLabel{
+margin:50px;
+background-image: url( background-image: );
+background-color: rgba(14,22,38,0);
+background-repeat: no-repeat;
+font-family:sans-serif;
+
+font-size:25px;
+}

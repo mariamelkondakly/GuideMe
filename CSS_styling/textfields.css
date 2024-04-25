@@ -1,0 +1,16 @@
+QLineEdit{
+background-color: rgba(14,22,38,150);
+border: 2px, solid, #C9F3FD;
+width:30px;
+height:50px;
+color:#C9F3FD;
+background-image: url( background-image: );
+background-repeat: no-repeat;
+margin:0px 30px;
+font-family:sans-serif;
+font-weight:bold;
+}
+QLineEdit:focus{
+background-color: rgba(14,22,38,250);
+
+}
