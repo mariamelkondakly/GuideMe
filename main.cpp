@@ -9,10 +9,9 @@ using namespace std;
 
 
 int main(int argc, char* argv[]) {
-    unordered_map<string,unordered_map<string,vector<Edge>>> transportationMap;
-    file_management::read(transportationMap);
-    file_management::test(transportationMap);
-    file_management::write(transportationMap);
+    file_management::read();
+    file_management::test();
+    file_management::write();
 
     QApplication a(argc, argv);
     editorialFunctions f;

@@ -21,6 +21,8 @@ public:
 private slots:
     void on_DeleteButton_clicked();
 
+    void on_EditButton_clicked();
+
 private:
     Ui::editorialFunctions *ui;
 };

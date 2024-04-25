@@ -8,8 +8,9 @@
 using namespace std;
 
 
+unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
 
-void file_management::test(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap){
+void file_management::test(){
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {
             cout << source_data.first << " "
@@ -22,7 +23,7 @@ void file_management::test(unordered_map<string,unordered_map<string, vector<Edg
         }
     }
 
-} void file_management::  read(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap)
+} void file_management::  read()
 {
     ifstream data_read("transportation_data.txt");
     string line;
@@ -37,7 +38,7 @@ void file_management::test(unordered_map<string,unordered_map<string, vector<Edg
     }
     data_read.close();
 }
-void file_management::write(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap)
+void file_management::write()
 {
 
     ofstream data_write("transportation_data.txt");

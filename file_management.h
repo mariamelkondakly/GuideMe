@@ -18,9 +18,10 @@ class file_management
 public:
 
     file_management();
-    static void read(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap);
-    static void write(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap);
-    static void test(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap);
+    static unordered_map<string,unordered_map<string,vector<Edge>>> transportationMap;
+    static void read();
+    static void write();
+    static void test();
 };
 
 #endif // FILE_MANAGEMENT_H

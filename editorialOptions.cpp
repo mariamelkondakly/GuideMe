@@ -28,3 +28,11 @@ void editorialFunctions::on_DeleteButton_clicked()
 
 }
 
+
+void editorialFunctions::on_EditButton_clicked()
+{
+    hide();
+    citiesSelection *window=new citiesSelection();
+    window->show();
+}
+
