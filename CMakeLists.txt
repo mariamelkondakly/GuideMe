@@ -39,6 +39,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         CSS_styling/background.css
         CSS_styling/titleLabel.css
         Assets/aubergine_road.jpg
+        images.qrc
+        images.qrc
+        cities.h cities.cpp cities.ui
+        CSS_styling/specialBackground.css
+        Assets/special.jpg
         citiesSelection.h citiesSelection.cpp citiesSelection.ui
         CSS_styling/textfields.css
         CSS_styling/normalLabels.css
