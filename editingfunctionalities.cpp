@@ -2,8 +2,12 @@
 
 
 EditingFunctionalities::EditingFunctionalities() {}
+string EditingFunctionalities::selectedTransportation;
+
 //Add function
+
 bool EditingFunctionalities::add(Edge e1,string source,string destination){
+
         //check source and destaination waiting
         bool exist=0;
         for (int i = 0; i < file_management::transportationMap[source][destination].size() ; i++) {

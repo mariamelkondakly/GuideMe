@@ -8,7 +8,8 @@ class Traversal
 {
 public:
   static map<string,bool> visited;
- static void Traversall(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
+ static void dfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
+  static void bfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
 };
 
 #endif // TRAVERSAL_H

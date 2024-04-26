@@ -931,6 +931,18 @@
 			"MU",
 			"EWIEGA46WW/moc_traversal.cpp",
 			null
+		],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/updatingtransportation.h",
+			"MU",
+			"EWIEGA46WW/moc_updatingtransportation.cpp",
+			null
+		],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/welcome.h",
+			"MU",
+			"EWIEGA46WW/moc_welcome.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -1041,7 +1053,13 @@
 			"MU",
 			null
 		],
-		[ "C:/Users/MARIAM/qt Projects/GuideMe/traversal.cpp", "MU", null ]
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/traversal.cpp", "MU", null ],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/updatingtransportation.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/welcome.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],
