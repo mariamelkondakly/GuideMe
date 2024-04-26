@@ -22,8 +22,8 @@ updatingTransportation::~updatingTransportation()
     delete ui;
 }
 
-void updatingTransportation::on_TransportationType_textEdited(const QString &arg1)
-{
+// void updatingTransportation::on_TransportationType_textEdited(const QString &arg1)
+// {
 
-}
+// }
 

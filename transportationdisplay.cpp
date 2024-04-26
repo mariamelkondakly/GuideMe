@@ -8,6 +8,7 @@
 #include <QPushButton>
 #include<iostream>
 #include <QMessageBox>
+#include "updatingtransportation.h"
 using namespace std;
 
 transportationDisplay::transportationDisplay(QWidget *parent)
@@ -57,12 +58,19 @@ void transportationDisplay::handleSelectButtonClicked()
     if (clickedButton) {
         if(editorialFunctions::deleteFlag){
             QMessageBox alert;
-            alert.setText("Are you sure you want to delete?");
+            alert.setText("This is a deletion prrocess and cannot be reverted");
+            alert.setInformativeText("Are you sure you want to delete?");
+            alert.setStandardButtons(QMessageBox::Yes | QMessageBox::Cancel);
+            alert.setDefaultButton(QMessageBox::Cancel);
             alert.exec();
         }
         else{
             QString transportationName = clickedButton->property("transportationName").toString();
             EditingFunctionalities::selectedTransportation = transportationName.toStdString();
+            hide();
+            updatingTransportation * window=new updatingTransportation();
+            window->show();
+
 
         }
     }

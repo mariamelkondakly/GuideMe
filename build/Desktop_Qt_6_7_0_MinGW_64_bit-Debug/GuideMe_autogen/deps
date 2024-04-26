@@ -998,10 +998,13 @@ GuideMe_autogen/timestamp: \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/traversal.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/traversal.h \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/updatingtransportation.cpp \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/updatingtransportation.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.ui \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.ui \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.ui \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/updatingtransportation.ui \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.ui \
 	C:/Qt/Tools/CMake_64/bin/cmake.exe
