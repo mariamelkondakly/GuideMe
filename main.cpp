@@ -4,6 +4,7 @@
 #include "citiesSelection.h"
 #include "traversal.h"
 #include "welcome.h"
+#include "updatingtransportation.h"
 //#include <iostream>
 #include "transportationdisplay.h"
 using namespace std;
@@ -17,7 +18,7 @@ int main(int argc, char* argv[]) {
     Traversal::Traversall(file_management::transportationMap,"Sohag");
 
     QApplication a(argc, argv);
-    welcome f;
+    updatingTransportation f;
     f.show();
     return a.exec();
 }
