@@ -50,6 +50,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         CSS_styling/welcometitle.css
         edit_view.h edit_view.cpp edit_view.ui
         updatingtransportation.h updatingtransportation.cpp updatingtransportation.ui
+        CSS_styling/listLabel.css
+        CSS_styling/costLabel.css
 
     )
 # Define target properties for Android with Qt 6 as:

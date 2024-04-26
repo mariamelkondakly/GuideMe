@@ -9,6 +9,7 @@
 #include<iostream>
 #include <QMessageBox>
 #include "updatingtransportation.h"
+#include "welcome.h"
 using namespace std;
 
 transportationDisplay::transportationDisplay(QWidget *parent)
@@ -22,7 +23,16 @@ transportationDisplay::transportationDisplay(QWidget *parent)
     for (int i=0;i<widgets.size();i++) {
         ui->verticalLayout->addWidget(widgets[i]);
     }
-
+    QPushButton *homeButton=new QPushButton("Return home");
+    GUI_management::applyStylesheet(homeButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
+    connect(homeButton, &QPushButton::clicked, this, &transportationDisplay::homeButtonClicked);
+    QHBoxLayout *buttonLooks=new QHBoxLayout();
+    QSpacerItem *horizontalSpacer = new QSpacerItem(900, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
+    buttonLooks->addSpacerItem(horizontalSpacer);
+    buttonLooks->addWidget(homeButton);
+    if(editorialFunctions::addFlag){
+        ui->verticalLayout->addLayout(buttonLooks);
+    }
 
 
 
@@ -41,17 +51,29 @@ vector<QWidget *>transportationDisplay::transportationCreate()
         QWidget *item=new QWidget();
         QHBoxLayout *horizontalLayout = new QHBoxLayout();
         QString transportationName = QString::fromStdString(file_management::transportationMap[EditingFunctionalities::selectedSource][EditingFunctionalities::selectedDestination][i].transportation);
+        int cost = file_management::transportationMap[EditingFunctionalities::selectedSource][EditingFunctionalities::selectedDestination][i].cost;
+        QString transportationCost = QString::number(cost)+"EGP";
         QLabel *transportation=new QLabel(transportationName);
+        QLabel *transportationc=new QLabel(transportationCost);
         QPushButton *selectbutton=new QPushButton("select");
+
+        if(editorialFunctions::addFlag){
+            selectbutton->setVisible(false);
+        }
         selectbutton->setProperty("transportationName", transportationName);
         connect(selectbutton, &QPushButton::clicked, this, &transportationDisplay::handleSelectButtonClicked);
         horizontalLayout->addWidget(transportation);
+        horizontalLayout->addWidget(transportationc);
         horizontalLayout->addWidget(selectbutton);
         item->setLayout(horizontalLayout);
-        GUI_management::applyStylesheet(transportation, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
+
+        GUI_management::applyStylesheet(transportation, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/listLabel.css"));
+        GUI_management::applyStylesheet(transportationc, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/costLabel.css"));
         GUI_management::applyStylesheet(selectbutton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
         GUI_management::applyStylesheet(item,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/transportationWidgets.css"));
         transportationWidgets.push_back(item);
+
+
     }
     return transportationWidgets;
 }
@@ -60,6 +82,7 @@ void transportationDisplay::handleSelectButtonClicked()
     QPushButton *clickedButton = qobject_cast<QPushButton*>(sender()); // Get the button that was clicked
     QString transportationName = clickedButton->property("transportationName").toString();
     EditingFunctionalities::selectedTransportation = transportationName.toStdString();
+
     if (clickedButton) {
         if(editorialFunctions::deleteFlag){
             QMessageBox alert;
@@ -86,6 +109,7 @@ void transportationDisplay::handleSelectButtonClicked()
                     hide();
                     transportationDisplay *window=new transportationDisplay();
                     window->show();
+
                 }
 
 
@@ -98,4 +122,11 @@ void transportationDisplay::handleSelectButtonClicked()
             window->show();
         }
     }
+}
+
+void transportationDisplay::homeButtonClicked(){
+    hide();
+    welcome *window=new welcome();
+    window->show();
+
 }
