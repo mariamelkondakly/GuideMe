@@ -1,0 +1,4 @@
+Sohag Suez Bus 100 Microbus 50 
+Sohag Zagazig Bus 300 Microbus 150 
+Zagazig Tanta Bus 250 Microbus 100 
+Tanta cairo Bus 250 Microbus 100 
