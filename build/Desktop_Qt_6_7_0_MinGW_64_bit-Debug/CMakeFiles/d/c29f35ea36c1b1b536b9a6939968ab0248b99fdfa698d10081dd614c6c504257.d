@@ -987,6 +987,9 @@ GuideMe_autogen/timestamp: \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.ui \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.ui \
   C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.cpp \

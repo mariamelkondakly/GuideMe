@@ -897,6 +897,12 @@
 			null
 		],
 		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/edit_view.h",
+			"MU",
+			"EWIEGA46WW/moc_edit_view.cpp",
+			null
+		],
+		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/editingfunctionalities.h",
 			"MU",
 			"EWIEGA46WW/moc_editingfunctionalities.cpp",
@@ -1035,6 +1041,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/citiesSelection.cpp", "MU", null ],
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/edit_view.cpp", "MU", null ],
 		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/editingfunctionalities.cpp",
 			"MU",
