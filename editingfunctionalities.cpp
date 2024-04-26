@@ -33,5 +33,25 @@ bool EditingFunctionalities::add(Edge e1,string source,string destination){
             }
         }
     }
+    static bool connection(unordered_map<string,unordered_map<string,vector<Edge>>> graph){
 
+        unordered_map<string,unordered_map<string,vector<Edge>>> ::iterator it;
+        //unordered_map<string,vector<Edge>> map2;
+        int counter=0;
+        int citiesCounter=0;
+        for(it=graph.begin() ; it !=graph.end() ; it++){
+            citiesCounter++;
+        }
+        for(it=graph.begin() ; it !=graph.end() ; it++){
+            unordered_map<string,vector<Edge>> ::iterator it2;
+            for(it2=it->second.begin() ; it2 !=it->second.end() ; it2++){
+                counter++;
+            }
+            if(counter!=citiesCounter-1){
+                return false;
+            }
+            counter=0;
+        }
+        return true;
+    }
 
