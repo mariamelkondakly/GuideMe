@@ -18,6 +18,8 @@ class file_management
 public:
 
     file_management();
+
+    static void readFile();
     static QDir dir; //change it to make it run on your pc
     static unordered_map<string,unordered_map<string,vector<Edge>>> transportationMap;
     static void read();

@@ -14,6 +14,7 @@ editorialFunctions::editorialFunctions(QWidget *parent)
 
 {
     ui->setupUi(this);
+
     GUI_management::applyStylesheet(ui->widget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
     GUI_management::applyStylesheet(ui->label, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
     GUI_management::applyStylesheet(ui->DeleteButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
@@ -24,6 +25,7 @@ editorialFunctions::~editorialFunctions()
 {
     delete ui;
 }
+
 
 void editorialFunctions::on_DeleteButton_clicked()
 {
