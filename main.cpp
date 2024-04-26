@@ -12,9 +12,10 @@ using namespace std;
 int main(int argc, char* argv[]) {
 
     file_management::read();
-    // file_management::test();
+    //file_management::test();
     file_management::write();
-    Traversal::Traversall(file_management::transportationMap,"Sohag");
+    // Traversal::dfs(file_management::transportationMap,"Sohag");
+     Traversal::bfs(file_management::transportationMap,"Sohag");
 
     QApplication a(argc, argv);
     welcome f;

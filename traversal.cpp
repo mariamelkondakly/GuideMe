@@ -1,10 +1,11 @@
 #include "traversal.h"
 #include <iostream>
 #include <stack>
+#include <queue>
 using namespace std;
 // DFS algorithm
 map<string,bool>Traversal::visited;
-void Traversal::Traversall( unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap, string start) {
+void Traversal::dfs( unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap, string start) {
     stack<string> s;
     visited[start] = true;
     s.push(start);
@@ -21,4 +22,22 @@ void Traversal::Traversall( unordered_map<string,unordered_map<string,vector<Edg
             }
         }
     }
+}
+void Traversal::bfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap, string start){
+    queue<string>q;
+    visited[start]= true;
+    q.push(start);
+    while(!q.empty()){
+        string currentNode =q.front() ;
+        q.pop();
+        cout<<currentNode<< "  ";
+         unordered_map<string,vector<Edge>>::iterator childNode;
+        for (childNode=transportationMap[currentNode].begin();childNode !=transportationMap[currentNode].end();childNode++) {
+             if (!visited[childNode->first]) {
+                 visited[childNode->first] = true;
+                 q.push(childNode->first);
+             }
+        }
+    }
+
 }
