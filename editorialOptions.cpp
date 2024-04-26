@@ -16,8 +16,10 @@ editorialFunctions::editorialFunctions(QWidget *parent)
     GUI_management::applyStylesheet(ui->pushButton_2, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
     GUI_management::applyStylesheet(ui->pushButton_3, dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
 
+
 }
 editorialFunctions::~editorialFunctions()
 {
     delete ui;
 }
+

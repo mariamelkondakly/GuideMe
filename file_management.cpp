@@ -5,6 +5,9 @@
 #include <string>
 #include <sstream>
 #include<unordered_map>
+#include <QPair>
+#include <vector>
+
 using namespace std;
 
 
@@ -54,6 +57,23 @@ void file_management::write(unordered_map<string,unordered_map<string, vector<Ed
     }
     data_write.close();
  }
+
+void file_management::readFile(){
+    fstream myFile;
+    myFile.open("project.txt" , ios::in);
+    string line;
+    vector<QPair<string,string>> pair;
+    if(myFile.is_open()){
+        while(getline(myFile,line)){
+            string city , path;
+            istringstream iss(line);
+            if(iss >>city>>path){
+                pair.push_back({city,path});
+            }
+        }
+        myFile.close();
+    }
+}
 
 
 

@@ -21,6 +21,7 @@ public:
     static void read(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap);
     static void write(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap);
     static void test(unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap);
+    static void readFile();
 };
 
 #endif // FILE_MANAGEMENT_H

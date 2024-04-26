@@ -36,6 +36,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         CSS_styling/background.css
         CSS_styling/titleLabel.css
         Assets/aubergine_road.jpg
+        images.qrc
+        images.qrc
+        cities.h cities.cpp cities.ui
+        CSS_styling/specialBackground.css
+        Assets/special.jpg
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET GuideMe APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

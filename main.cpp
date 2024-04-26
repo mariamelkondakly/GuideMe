@@ -12,6 +12,7 @@ int main(int argc, char* argv[]) {
     file_management::read(transportationMap);
     file_management::test(transportationMap);
     file_management::write(transportationMap);
+    file_management::readFile();
 
     QApplication a(argc, argv);
     editorialFunctions f;
