@@ -8,6 +8,7 @@ public:
     EditingFunctionalities();
     static string selectedSource;
     static string selectedDestination;
+    static string selectedTransportation;
     static void add(Edge e1,unordered_map<string,unordered_map<string, vector<Edge>>>&transportationMap,string source,string destination);
     static void deleting(Edge edge, unordered_map<string,unordered_map<string,vector<Edge>>>&transportationMap,string source,string destination);
 
