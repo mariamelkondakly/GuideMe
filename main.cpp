@@ -1,21 +1,27 @@
 #include <QApplication>
 #include"file_management.h"
 #include "editorialOptions.h"
+#include "citiesSelection.h"
+#include "traversal.h"
+#include "edit_view.h"
+#include "welcome.h"
+#include "updatingtransportation.h"
 //#include <iostream>
-#include <string>
-#include <vector>
+#include "transportationdisplay.h"
+#include"welcome.h"
 using namespace std;
 
 
 int main(int argc, char* argv[]) {
-    unordered_map<string,unordered_map<string,vector<Edge>>> transportationMap;
-    file_management::read(transportationMap);
-    file_management::test(transportationMap);
-    file_management::write(transportationMap);
+
     file_management::readFile();
+    file_management::read();
+    //file_management::test();
+    file_management::write();
+     Traversal::bfs(file_management::transportationMap,"Sohag");
 
     QApplication a(argc, argv);
-    editorialFunctions f;
+    welcome f;
     f.show();
     return a.exec();
 }

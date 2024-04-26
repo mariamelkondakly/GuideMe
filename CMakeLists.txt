@@ -12,6 +12,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt6 COMPONENTS Qml Quick REQUIRED)
+find_package(Qt6 COMPONENTS Widgets REQUIRED)
+find_package(Qt6 REQUIRED COMPONENTS UiTools)
+
 
 set(PROJECT_SOURCES
         main.cpp
@@ -41,6 +44,17 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         cities.h cities.cpp cities.ui
         CSS_styling/specialBackground.css
         Assets/special.jpg
+        citiesSelection.h citiesSelection.cpp citiesSelection.ui
+        CSS_styling/textfields.css
+        CSS_styling/normalLabels.css
+        CSS_styling/warningLabel.css
+        transportationdisplay.h transportationdisplay.cpp transportationdisplay.ui
+        CSS_styling/transportationWidgets.css
+        traversal.h traversal.cpp
+        welcome.h welcome.cpp welcome.ui
+        CSS_styling/welcometitle.css
+        edit_view.h edit_view.cpp edit_view.ui
+        updatingtransportation.h updatingtransportation.cpp updatingtransportation.ui
 
     )
 # Define target properties for Android with Qt 6 as:
@@ -63,7 +77,8 @@ endif()
 
 target_link_libraries(GuideMe PRIVATE Qt${QT_VERSION_MAJOR}::Widgets
     Qt6::Qml
-    Qt6::Quick)
+    Qt6::Quick
+Qt6::Widgets Qt6::UiTools)
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.
