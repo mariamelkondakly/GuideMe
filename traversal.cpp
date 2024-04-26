@@ -23,7 +23,7 @@ void Traversal::dfs( unordered_map<string,unordered_map<string,vector<Edge>>> &t
         }
     }
 }
-void Traversal::bfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap, string start){
+void Traversal::bfs (unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap, string start){
     queue<string>q;
     visited[start]= true;
     q.push(start);
