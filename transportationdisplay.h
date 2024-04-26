@@ -19,6 +19,7 @@ private:
     Ui::transportationDisplay *ui;
     vector<QWidget *> transportationCreate();
     void transportationshow();
+    void handleSelectButtonClicked();
 };
 
 #endif // TRANSPORTATIONDISPLAY_H

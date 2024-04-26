@@ -2,3 +2,4 @@
 #include "EWIEGA46WW/moc_citiesSelection.cpp"
 #include "EWIEGA46WW/moc_editorialOptions.cpp"
 #include "EWIEGA46WW/moc_transportationdisplay.cpp"
+#include "EWIEGA46WW/moc_welcome.cpp"
