@@ -23,6 +23,9 @@ transportationDisplay::transportationDisplay(QWidget *parent)
         ui->verticalLayout->addWidget(widgets[i]);
     }
 
+
+
+
 }
 
 transportationDisplay::~transportationDisplay()
@@ -31,7 +34,7 @@ transportationDisplay::~transportationDisplay()
 
 }
 
- vector<QWidget *>transportationDisplay::transportationCreate()
+vector<QWidget *>transportationDisplay::transportationCreate()
 {
     vector<QWidget *> transportationWidgets;
     for(int i=0;i<file_management::transportationMap[EditingFunctionalities::selectedSource][EditingFunctionalities::selectedDestination].size();i++){
@@ -55,23 +58,44 @@ transportationDisplay::~transportationDisplay()
 void transportationDisplay::handleSelectButtonClicked()
 {
     QPushButton *clickedButton = qobject_cast<QPushButton*>(sender()); // Get the button that was clicked
+    QString transportationName = clickedButton->property("transportationName").toString();
+    EditingFunctionalities::selectedTransportation = transportationName.toStdString();
     if (clickedButton) {
         if(editorialFunctions::deleteFlag){
             QMessageBox alert;
+
             alert.setText("This is a deletion prrocess and cannot be reverted");
             alert.setInformativeText("Are you sure you want to delete?");
             alert.setStandardButtons(QMessageBox::Yes | QMessageBox::Cancel);
             alert.setDefaultButton(QMessageBox::Cancel);
-            alert.exec();
+            int ret=alert.exec();
+
+            QLabel *warning=new QLabel("This is last Transportation. It can't be deleted.");
+            GUI_management::applyStylesheet(warning, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/warningLabel.css"));
+            warning->setVisible(false);
+            ui->verticalLayout->addWidget(warning);
+
+
+            if(ret == QMessageBox::Yes){
+                if(!EditingFunctionalities::deleting()){
+
+                    warning->setVisible(true);
+                }
+                else{
+                    warning->setVisible(false);
+                    hide();
+                    transportationDisplay *window=new transportationDisplay();
+                    window->show();
+                }
+
+
+            }
         }
         else{
-            QString transportationName = clickedButton->property("transportationName").toString();
-            EditingFunctionalities::selectedTransportation = transportationName.toStdString();
+
             hide();
             updatingTransportation * window=new updatingTransportation();
             window->show();
-
-
         }
     }
 }
