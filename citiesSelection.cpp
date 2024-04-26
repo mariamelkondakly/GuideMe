@@ -2,6 +2,7 @@
 #include "ui_citiesSelection.h"
 #include "file_management.h"
 #include "editorialOptions.h"
+#include"edit_view.h"
 
 
 using namespace std;
@@ -56,7 +57,9 @@ void citiesSelection::on_next_clicked()
             {
                 ui->warning->setVisible(false);
                 if(editorialFunctions::addFlag){
-
+                    hide();
+                    edit_view* view=new edit_view();
+                    view->show();
                 }
                 else {
                     hide();

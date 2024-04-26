@@ -3,10 +3,12 @@
 #include "editorialOptions.h"
 #include "citiesSelection.h"
 #include "traversal.h"
+#include "edit_view.h"
 #include "welcome.h"
 #include "updatingtransportation.h"
 //#include <iostream>
 #include "transportationdisplay.h"
+#include"welcome.h"
 using namespace std;
 
 
