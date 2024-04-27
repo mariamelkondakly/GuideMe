@@ -315,7 +315,7 @@ Qt6QmlBuiltins_DIR:PATH=C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlBuiltins
 Qt6QmlCompilerPlusPrivateTools_DIR:PATH=C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools
 
 //The directory containing a CMake configuration file for Qt6QmlCompilerPlusPrivate.
-Qt6QmlCompilerPlusPrivate_DIR:PATH=C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate
+Qt6QmlCompilerPlusPrivate_DIR:PATH=Qt6QmlCompilerPlusPrivate_DIR-NOTFOUND
 
 //The directory containing a CMake configuration file for Qt6QmlCompiler.
 Qt6QmlCompiler_DIR:PATH=C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler

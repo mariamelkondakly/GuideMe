@@ -3,6 +3,7 @@
 #include "GUI_management.h"
 #include "file_management.h"
 #include "editorialOptions.h"
+#include "dataentry.h"
 welcome::welcome(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::welcome)
@@ -22,9 +23,9 @@ welcome::~welcome()
 
 void welcome::on_pushButton_clicked()
 {
-    // hide();
-    // editorialFunctions *window=new editorialFunctions();
-    // window->show();
+     hide();
+    DataEntry *window=new DataEntry();
+     window->show();
 }
 
 

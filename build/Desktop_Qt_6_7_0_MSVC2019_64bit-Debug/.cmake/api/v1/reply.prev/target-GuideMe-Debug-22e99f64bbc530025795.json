@@ -98,13 +98,21 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 89,
+<<<<<<<< Updated upstream:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-22e99f64bbc530025795.json
+				"line" : 90,
+========
+				"line" : 92,
+>>>>>>>> Stashed changes:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-05cbbec92806e4cbf9d1.json
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 70,
+<<<<<<<< Updated upstream:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-22e99f64bbc530025795.json
+				"line" : 71,
+========
+				"line" : 73,
+>>>>>>>> Stashed changes:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-05cbbec92806e4cbf9d1.json
 				"parent" : 0
 			},
 			{
@@ -522,7 +530,11 @@
 			{
 				"command" : 17,
 				"file" : 1,
-				"line" : 96,
+<<<<<<<< Updated upstream:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-22e99f64bbc530025795.json
+				"line" : 97,
+========
+				"line" : 99,
+>>>>>>>> Stashed changes:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-05cbbec92806e4cbf9d1.json
 				"parent" : 0
 			},
 			{
@@ -757,22 +769,23 @@
 				20,
 				26,
 				30,
-				32
+				32,
+				36
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 0,
+			"id" : "GuideMe_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 91,
 			"id" : "GuideMe_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "GuideMe_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "GuideMe_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "GuideMe::@6890427a1f51a3e7e1df",
@@ -936,7 +949,8 @@
 				20,
 				26,
 				30,
-				32
+				32,
+				36
 			]
 		},
 		{
@@ -951,10 +965,18 @@
 				25,
 				29,
 				31,
-				34,
 				35,
+<<<<<<<< Updated upstream:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-22e99f64bbc530025795.json
 				36,
-				37
+				37,
+				38
+========
+				38,
+				39,
+				40,
+				41,
+				42
+>>>>>>>> Stashed changes:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-05cbbec92806e4cbf9d1.json
 			]
 		},
 		{
@@ -976,7 +998,13 @@
 				27,
 				28,
 				33,
-				38
+				34,
+<<<<<<<< Updated upstream:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-22e99f64bbc530025795.json
+				39
+========
+				37,
+				43
+>>>>>>>> Stashed changes:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-05cbbec92806e4cbf9d1.json
 			]
 		},
 		{
@@ -990,7 +1018,11 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				39
+<<<<<<<< Updated upstream:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-22e99f64bbc530025795.json
+				40
+========
+				44
+>>>>>>>> Stashed changes:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-05cbbec92806e4cbf9d1.json
 			]
 		}
 	],
@@ -1178,6 +1210,30 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "CSS_styling/welcometitle.css",
+			"sourceGroupIndex" : 2
+		},
+		{
+<<<<<<<< Updated upstream:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-22e99f64bbc530025795.json
+========
+			"backtrace" : 4,
+			"path" : "dataentry.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "dataentry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "dataentry.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+>>>>>>>> Stashed changes:build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/.cmake/api/v1/reply/target-GuideMe-Debug-05cbbec92806e4cbf9d1.json
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/GuideMe_autogen/include/ui_editorialOptions.h",
@@ -1199,6 +1255,12 @@
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/GuideMe_autogen/include/ui_welcome.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/GuideMe_autogen/include/ui_dataentry.h",
 			"sourceGroupIndex" : 1
 		},
 		{

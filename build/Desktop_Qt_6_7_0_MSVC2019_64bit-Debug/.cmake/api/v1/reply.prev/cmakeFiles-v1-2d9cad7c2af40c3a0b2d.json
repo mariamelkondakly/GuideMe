@@ -1696,158 +1696,6 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateDependencies.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsDependencies.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsVersionlessTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerConfigVersion.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerConfigVersionImpl.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerDependencies.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerVersionlessTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerPlugins.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateVersionlessTargets.cmake"
-		},
-		{
-			"isExternal" : true,
 			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake"
 		},
 		{
@@ -1874,31 +1722,6 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -1949,31 +1772,6 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InsightTrackerQmlpluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -2724,31 +2522,6 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginAdditionalTargetInfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginConfig.cmake"
-		},
-		{
-			"isCMake" : true,
-			"isExternal" : true,
-			"path" : "C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginTargets.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginTargets-debug.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginTargets-relwithdebinfo.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginAdditionalTargetInfo.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4281,19 +4054,11 @@
 		},
 		{
 			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginConfig.cmake"
-		},
-		{
-			"isExternal" : true,
 			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginConfig.cmake"
 		},
 		{
 			"isExternal" : true,
 			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InsightTrackerQmlpluginConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginConfig.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -4414,10 +4179,6 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginConfig.cmake"
-		},
-		{
-			"isExternal" : true,
-			"path" : "C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginConfig.cmake"
 		},
 		{
 			"isExternal" : true,

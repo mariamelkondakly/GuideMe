@@ -53,6 +53,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         traversal.h traversal.cpp
         welcome.h welcome.cpp welcome.ui
         CSS_styling/welcometitle.css
+        dataentry.h dataentry.cpp dataentry.ui
         edit_view.h edit_view.cpp edit_view.ui
         updatingtransportation.h updatingtransportation.cpp updatingtransportation.ui
         CSS_styling/listLabel.css
