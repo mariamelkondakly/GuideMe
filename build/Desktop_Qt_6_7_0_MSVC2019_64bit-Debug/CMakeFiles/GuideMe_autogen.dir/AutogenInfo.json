@@ -1278,6 +1278,12 @@
 			null
 		],
 		[
+			"C:/Users/dell/Desktop/GuideMe/dataentry.h",
+			"MU",
+			"EWIEGA46WW/moc_dataentry.cpp",
+			null
+		],
+		[
 			"C:/Users/dell/Desktop/GuideMe/editingfunctionalities.h",
 			"MU",
 			"EWIEGA46WW/moc_editingfunctionalities.cpp",
@@ -1394,6 +1400,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/dell/Desktop/GuideMe/citiesSelection.cpp", "MU", null ],
+		[ "C:/Users/dell/Desktop/GuideMe/dataentry.cpp", "MU", null ],
 		[
 			"C:/Users/dell/Desktop/GuideMe/editingfunctionalities.cpp",
 			"MU",

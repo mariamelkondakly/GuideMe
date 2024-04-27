@@ -387,11 +387,6 @@ GuideMe_autogen/timestamp: \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets-debug.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets-relwithdebinfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginConfig.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets-debug.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginConfig.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginTargets-debug.cmake \
@@ -402,11 +397,6 @@ GuideMe_autogen/timestamp: \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InsightTrackerQmlpluginTargets-debug.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InsightTrackerQmlpluginTargets-relwithdebinfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InsightTrackerQmlpluginTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginConfig.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginTargets-debug.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6InterfaceFrameworkpluginTargets.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginAdditionalTargetInfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginConfig.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6PdfQuickpluginTargets-debug.cmake \
@@ -557,11 +547,6 @@ GuideMe_autogen/timestamp: \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-debug.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-relwithdebinfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginConfig.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginTargets-debug.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquickvncpluginTargets.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2AdditionalTargetInfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets-debug.cmake \
@@ -948,39 +933,6 @@ GuideMe_autogen/timestamp: \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsTargets-relwithdebinfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsTargets.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsVersionlessTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerAdditionalTargetInfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerConfig.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerConfigVersion.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerConfigVersionImpl.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerDependencies.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerPlugins.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerTargets-debug.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerTargets-relwithdebinfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlCompilerVersionlessTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginAdditionalTargetInfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginConfig.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginTargets-debug.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginTargets-relwithdebinfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompiler/Qt6QmlLintQuickPluginTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateAdditionalTargetInfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateConfig.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateConfigVersion.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateConfigVersionImpl.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateDependencies.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateTargets-debug.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateTargets-relwithdebinfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivate/Qt6QmlCompilerPlusPrivateVersionlessTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsAdditionalTargetInfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsConfig.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsConfigVersion.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsConfigVersionImpl.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsDependencies.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsTargets-debug.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsTargets-relwithdebinfo.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsTargets.cmake \
-	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlCompilerPlusPrivateTools/Qt6QmlCompilerPlusPrivateToolsVersionlessTargets.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationAdditionalTargetInfo.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfig.cmake \
 	C:/Qt/6.7.0/msvc2019_64/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersion.cmake \
@@ -1109,6 +1061,8 @@ GuideMe_autogen/timestamp: \
 	C:/Users/dell/Desktop/GuideMe/build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
 	C:/Users/dell/Desktop/GuideMe/citiesSelection.cpp \
 	C:/Users/dell/Desktop/GuideMe/citiesSelection.h \
+	C:/Users/dell/Desktop/GuideMe/dataentry.cpp \
+	C:/Users/dell/Desktop/GuideMe/dataentry.h \
 	C:/Users/dell/Desktop/GuideMe/editingfunctionalities.cpp \
 	C:/Users/dell/Desktop/GuideMe/editingfunctionalities.h \
 	C:/Users/dell/Desktop/GuideMe/editorialOptions.cpp \
@@ -1125,6 +1079,7 @@ GuideMe_autogen/timestamp: \
 	C:/Users/dell/Desktop/GuideMe/welcome.cpp \
 	C:/Users/dell/Desktop/GuideMe/welcome.h \
 	C:/Users/dell/Desktop/GuideMe/citiesSelection.ui \
+	C:/Users/dell/Desktop/GuideMe/dataentry.ui \
 	C:/Users/dell/Desktop/GuideMe/editorialOptions.ui \
 	C:/Users/dell/Desktop/GuideMe/transportationdisplay.ui \
 	C:/Users/dell/Desktop/GuideMe/welcome.ui \
