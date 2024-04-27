@@ -897,6 +897,12 @@
 			null
 		],
 		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/edit_view.h",
+			"MU",
+			"EWIEGA46WW/moc_edit_view.cpp",
+			null
+		],
+		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/editingfunctionalities.h",
 			"MU",
 			"EWIEGA46WW/moc_editingfunctionalities.cpp",
@@ -930,6 +936,18 @@
 			"C:/Users/MARIAM/qt Projects/GuideMe/traversal.h",
 			"MU",
 			"EWIEGA46WW/moc_traversal.cpp",
+			null
+		],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/updatingtransportation.h",
+			"MU",
+			"EWIEGA46WW/moc_updatingtransportation.cpp",
+			null
+		],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/welcome.h",
+			"MU",
+			"EWIEGA46WW/moc_welcome.cpp",
 			null
 		]
 	],
@@ -1023,6 +1041,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/citiesSelection.cpp", "MU", null ],
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/edit_view.cpp", "MU", null ],
 		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/editingfunctionalities.cpp",
 			"MU",
@@ -1041,7 +1060,13 @@
 			"MU",
 			null
 		],
-		[ "C:/Users/MARIAM/qt Projects/GuideMe/traversal.cpp", "MU", null ]
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/traversal.cpp", "MU", null ],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/updatingtransportation.cpp",
+			"MU",
+			null
+		],
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/welcome.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

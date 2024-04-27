@@ -987,6 +987,9 @@ GuideMe_autogen/timestamp: \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.ui \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.ui \
   C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.cpp \
@@ -1001,4 +1004,10 @@ GuideMe_autogen/timestamp: \
   C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.ui \
   C:/Users/MARIAM/qt\ Projects/GuideMe/traversal.cpp \
-  C:/Users/MARIAM/qt\ Projects/GuideMe/traversal.h
+  C:/Users/MARIAM/qt\ Projects/GuideMe/traversal.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/updatingtransportation.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/updatingtransportation.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/updatingtransportation.ui \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.ui

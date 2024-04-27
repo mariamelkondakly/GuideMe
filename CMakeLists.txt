@@ -39,6 +39,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         CSS_styling/background.css
         CSS_styling/titleLabel.css
         Assets/aubergine_road.jpg
+        images.qrc
+        images.qrc
+        cities.h cities.cpp cities.ui
+        CSS_styling/specialBackground.css
+        Assets/special.jpg
         citiesSelection.h citiesSelection.cpp citiesSelection.ui
         CSS_styling/textfields.css
         CSS_styling/normalLabels.css
@@ -49,7 +54,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         welcome.h welcome.cpp welcome.ui
         CSS_styling/welcometitle.css
         dataentry.h dataentry.cpp dataentry.ui
-
+        edit_view.h edit_view.cpp edit_view.ui
+        updatingtransportation.h updatingtransportation.cpp updatingtransportation.ui
+        CSS_styling/listLabel.css
+        CSS_styling/costLabel.css
 
     )
 # Define target properties for Android with Qt 6 as:

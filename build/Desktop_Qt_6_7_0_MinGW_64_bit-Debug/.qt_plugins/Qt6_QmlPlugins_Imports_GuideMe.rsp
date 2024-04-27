@@ -1,0 +1,9 @@
+-rootPath
+C:/Users/MARIAM/qt Projects/GuideMe
+-cmake-output
+-output-file
+C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake
+-importPath
+C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+-importPath
+C:/Qt/6.7.0/mingw_64/./qml
