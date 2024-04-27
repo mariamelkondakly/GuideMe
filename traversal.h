@@ -7,9 +7,11 @@ using namespace std;
 class Traversal
 {
 public:
+    static bool bfsflag;
+    static bool dfsflag;
   static map<string,bool> visited;
- static void dfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
-  static void bfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
+    static vector<string> dfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
+  static vector<string> bfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
 };
 
 #endif // TRAVERSAL_H

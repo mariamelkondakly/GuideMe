@@ -1,6 +1,7 @@
 GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/QDir \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/QFile \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/QPair \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/QString \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/q20memory.h \
@@ -1060,12 +1061,18 @@ GuideMe_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
+  C:/Users/dell/Desktop/GuideMe/cities.cpp \
+  C:/Users/dell/Desktop/GuideMe/cities.h \
+  C:/Users/dell/Desktop/GuideMe/cities.ui \
   C:/Users/dell/Desktop/GuideMe/citiesSelection.cpp \
   C:/Users/dell/Desktop/GuideMe/citiesSelection.h \
   C:/Users/dell/Desktop/GuideMe/citiesSelection.ui \
   C:/Users/dell/Desktop/GuideMe/dataentry.cpp \
   C:/Users/dell/Desktop/GuideMe/dataentry.h \
   C:/Users/dell/Desktop/GuideMe/dataentry.ui \
+  C:/Users/dell/Desktop/GuideMe/edit_view.cpp \
+  C:/Users/dell/Desktop/GuideMe/edit_view.h \
+  C:/Users/dell/Desktop/GuideMe/edit_view.ui \
   C:/Users/dell/Desktop/GuideMe/editingfunctionalities.cpp \
   C:/Users/dell/Desktop/GuideMe/editingfunctionalities.h \
   C:/Users/dell/Desktop/GuideMe/editorialOptions.cpp \
@@ -1075,12 +1082,16 @@ GuideMe_autogen/timestamp: \
   C:/Users/dell/Desktop/GuideMe/file_management.h \
   C:/Users/dell/Desktop/GuideMe/gui_management.cpp \
   C:/Users/dell/Desktop/GuideMe/gui_management.h \
+  C:/Users/dell/Desktop/GuideMe/images.qrc \
   C:/Users/dell/Desktop/GuideMe/main.cpp \
   C:/Users/dell/Desktop/GuideMe/transportationdisplay.cpp \
   C:/Users/dell/Desktop/GuideMe/transportationdisplay.h \
   C:/Users/dell/Desktop/GuideMe/transportationdisplay.ui \
   C:/Users/dell/Desktop/GuideMe/traversal.cpp \
   C:/Users/dell/Desktop/GuideMe/traversal.h \
+  C:/Users/dell/Desktop/GuideMe/updatingtransportation.cpp \
+  C:/Users/dell/Desktop/GuideMe/updatingtransportation.h \
+  C:/Users/dell/Desktop/GuideMe/updatingtransportation.ui \
   C:/Users/dell/Desktop/GuideMe/welcome.cpp \
   C:/Users/dell/Desktop/GuideMe/welcome.h \
   C:/Users/dell/Desktop/GuideMe/welcome.ui

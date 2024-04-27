@@ -4,17 +4,20 @@
 #include "GUI_management.h"
 #include "editingfunctionalities.h"
 #include "editorialOptions.h"
+#include "cities.h"
+#include "traversal.h"
+ int DataEntry:: budget ;
 DataEntry::DataEntry(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::DataEntry)
 {
     ui->setupUi(this);
     GUI_management::applyStylesheet(ui->widget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
-    GUI_management::applyStylesheet(ui->label, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
+    GUI_management::applyStylesheet(ui->label, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
     GUI_management::applyStylesheet(ui->label_2, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->label_3, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->label_4, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->label_5, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
+    GUI_management::applyStylesheet(ui->label_3, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
+    GUI_management::applyStylesheet(ui->label_4, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
+    GUI_management::applyStylesheet(ui->label_5, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/warningLabel.css"));
     GUI_management::applyStylesheet(ui->pushButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
     GUI_management::applyStylesheet(ui->pushButton_2, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
     GUI_management::applyStylesheet(ui->pushButton_3, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
@@ -30,15 +33,16 @@ DataEntry::~DataEntry()
 
 void DataEntry::on_pushButton_clicked()
 {
-
+    Traversal::bfsflag=true;
+    Traversal::dfsflag=false;
 }
 
 
 void DataEntry::on_pushButton_3_clicked()
 {
-
+  Traversal::dfsflag=true;
+  Traversal::bfsflag=false;
 }
-
 
 void DataEntry::on_pushButton_2_clicked()
 {
@@ -47,16 +51,16 @@ void DataEntry::on_pushButton_2_clicked()
     }
     else{
         if (file_management::transportationMap.find(EditingFunctionalities::selectedSource) != file_management::transportationMap.end()) {
-            if (file_management::transportationMap[EditingFunctionalities::selectedSource].find(EditingFunctionalities::selectedDestination) !=
-                file_management::transportationMap[EditingFunctionalities::selectedSource].end())
+            if (budget>0)
             {
                 ui->label_5->setVisible(false);
-                if(editorialFunctions::addFlag){
-
+                if(!Traversal::bfsflag && !Traversal::dfsflag){
+                    ui->label_5->setText("Please make sure you've chosen BFS or DFS");
+                    ui->label_5->setVisible(true);
                 }
                 else {
                     hide();
-                    transportationDisplay *window=new transportationDisplay();
+                    cities *window=new cities();
                     window->show();
                 }
             }
@@ -71,4 +75,22 @@ void DataEntry::on_pushButton_2_clicked()
         }
     }
 }
+
+void DataEntry::on_lineEdit_2_editingFinished()
+{
+   string cost_budget =ui->lineEdit_2->text().toStdString();
+    for(int i=0;i<cost_budget.length();i++){
+           budget*=10;
+           budget+=(int)(cost_budget[i]-'0');
+    }
+    cout<<budget<<endl;
+}
+
+
+void DataEntry::on_lineEdit_editingFinished()
+{
+     EditingFunctionalities::selectedSource =ui->lineEdit->text().toStdString();
+    cout<<EditingFunctionalities::selectedSource <<endl;
+}
+
 

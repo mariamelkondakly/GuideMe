@@ -12,7 +12,7 @@ using namespace std;
 
 
 unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
-QDir file_management::dir("C:/Users/MARIAM/qt Projects");
+QDir file_management::dir("C:/Users/dell/Desktop");
 void file_management::test(){
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {
@@ -59,7 +59,7 @@ void file_management::write()
     data_write.close();
  }
 
-void file_management::readFile(){
+vector<QPair<string,string>> file_management::readFile(){
     fstream myFile;
     myFile.open("project.txt" , ios::in);
     string line;
@@ -74,6 +74,7 @@ void file_management::readFile(){
         }
         myFile.close();
     }
+    return pair;
 }
 
 

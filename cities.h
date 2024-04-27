@@ -17,7 +17,7 @@ class cities : public QWidget
 
 public:
     explicit cities(QWidget *parent = nullptr);
-    vector<QWidget*> citiesDisplay(vector<QPair<std::string,std::string>>);
+    vector<QWidget*> citiesDisplay(vector<QPair<std::string,std::string>>,vector<string> vec_cities);
     ~cities();
 
 private:
