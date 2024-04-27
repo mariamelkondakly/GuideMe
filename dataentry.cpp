@@ -83,14 +83,14 @@ void DataEntry::on_lineEdit_2_editingFinished()
            budget*=10;
            budget+=(int)(cost_budget[i]-'0');
     }
-    cout<<budget<<endl;
+
 }
 
 
 void DataEntry::on_lineEdit_editingFinished()
 {
      EditingFunctionalities::selectedSource =ui->lineEdit->text().toStdString();
-    cout<<EditingFunctionalities::selectedSource <<endl;
+
 }
 
 

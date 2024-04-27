@@ -1,6 +1,7 @@
 GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QDir \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QPair \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -984,9 +985,15 @@ GuideMe_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   GuideMe_autogen/moc_predefs.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/cities.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/cities.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/cities.ui \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.ui \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/dataentry.cpp \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/dataentry.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/dataentry.ui \
   C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.ui \
@@ -999,6 +1006,7 @@ GuideMe_autogen/timestamp: \
   C:/Users/MARIAM/qt\ Projects/GuideMe/file_management.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/images.qrc \
   C:/Users/MARIAM/qt\ Projects/GuideMe/main.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.cpp \
   C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.h \

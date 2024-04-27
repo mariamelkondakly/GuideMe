@@ -883,7 +883,8 @@
 		"C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6UiTools/Qt6UiToolsAdditionalTargetInfo.cmake",
 		"C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6UiTools/Qt6UiToolsVersionlessTargets.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
-		"C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake"
+		"C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake",
+		"C:/Users/MARIAM/qt Projects/GuideMe/images.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/MARIAM/qt Projects/GuideMe",
 	"DEP_FILE" : "C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/deps",
@@ -891,9 +892,21 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/cities.h",
+			"MU",
+			"EWIEGA46WW/moc_cities.cpp",
+			null
+		],
+		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/citiesSelection.h",
 			"MU",
 			"EWIEGA46WW/moc_citiesSelection.cpp",
+			null
+		],
+		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/dataentry.h",
+			"MU",
+			"EWIEGA46WW/moc_dataentry.cpp",
 			null
 		],
 		[
@@ -1040,7 +1053,9 @@
 	"SETTINGS_FILE" : "C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/GuideMe_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/cities.cpp", "MU", null ],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/citiesSelection.cpp", "MU", null ],
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/dataentry.cpp", "MU", null ],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/edit_view.cpp", "MU", null ],
 		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/editingfunctionalities.cpp",

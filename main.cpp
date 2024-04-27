@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
 
     file_management::readFile();
     file_management::read();
-    //file_management::test();
+    file_management::test2();
     file_management::write();
      Traversal::bfs(file_management::transportationMap,"Sohag");
 

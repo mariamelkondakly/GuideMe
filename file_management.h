@@ -25,6 +25,7 @@ public:
     static void read();
     static void write();
     static void test();
+    static void test2();
 };
 
 #endif // FILE_MANAGEMENT_H

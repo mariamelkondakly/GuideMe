@@ -1,6 +1,7 @@
 GuideMe_autogen/timestamp: \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/QDir \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/QFile \
+	C:/Qt/6.7.0/mingw_64/include/QtCore/QPair \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -983,8 +984,12 @@ GuideMe_autogen/timestamp: \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/moc_predefs.h \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/cities.cpp \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/cities.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.h \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/dataentry.cpp \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/dataentry.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.cpp \
@@ -995,6 +1000,7 @@ GuideMe_autogen/timestamp: \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/file_management.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.h \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/images.qrc \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/main.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.h \
@@ -1004,7 +1010,9 @@ GuideMe_autogen/timestamp: \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/updatingtransportation.h \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.cpp \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.h \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/cities.ui \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.ui \
+	C:/Users/MARIAM/qt\ Projects/GuideMe/dataentry.ui \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/edit_view.ui \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.ui \
 	C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.ui \
