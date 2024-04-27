@@ -98,13 +98,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 89,
+				"line" : 90,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 70,
+				"line" : 71,
 				"parent" : 0
 			},
 			{
@@ -522,7 +522,7 @@
 			{
 				"command" : 17,
 				"file" : 1,
-				"line" : 96,
+				"line" : 97,
 				"parent" : 0
 			},
 			{
@@ -764,15 +764,15 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 0,
+			"id" : "GuideMe_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 91,
 			"id" : "GuideMe_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
 			"id" : "GuideMe_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
-			"backtrace" : 0,
-			"id" : "GuideMe_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "GuideMe::@6890427a1f51a3e7e1df",
@@ -951,10 +951,10 @@
 				25,
 				29,
 				31,
-				34,
 				35,
 				36,
-				37
+				37,
+				38
 			]
 		},
 		{
@@ -976,7 +976,8 @@
 				27,
 				28,
 				33,
-				38
+				34,
+				39
 			]
 		},
 		{
@@ -990,7 +991,7 @@
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				39
+				40
 			]
 		}
 	],
@@ -1175,6 +1176,11 @@
 		{
 			"backtrace" : 4,
 			"path" : "welcome.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "CSS_styling/welcometitle.css",
 			"sourceGroupIndex" : 2
 		},
 		{
