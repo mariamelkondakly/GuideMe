@@ -58,6 +58,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         updatingtransportation.h updatingtransportation.cpp updatingtransportation.ui
         CSS_styling/listLabel.css
         CSS_styling/costLabel.css
+        backgrounds.txt
 
     )
 # Define target properties for Android with Qt 6 as:

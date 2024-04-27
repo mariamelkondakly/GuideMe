@@ -7,6 +7,7 @@
 #include<unordered_map>
 #include <QPair>
 #include <vector>
+#include <QString>
 
 using namespace std;
 
@@ -67,8 +68,11 @@ vector<QPair<string,string>> file_management::readFile(){
     if(myFile.is_open()){
         while(getline(myFile,line)){
             string city , path;
+            QString p;
             istringstream iss(line);
             if(iss >>city>>path){
+                p=QString::fromStdString(path);
+               QString newPath = QString::fromStdString(dir.relativeFilePath(p).toStdString());
                 pair.push_back({city,path});
             }
         }
