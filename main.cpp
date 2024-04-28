@@ -9,16 +9,15 @@
 //#include <iostream>
 #include "transportationdisplay.h"
 #include"welcome.h"
+#include"result.h"
 using namespace std;
 
 
 int main(int argc, char* argv[]) {
 
     file_management::readFile();
-    file_management::read();
-    file_management::test2();
-    file_management::write();
-     Traversal::bfs(file_management::transportationMap,"Sohag");
+  //  file_management::test2();
+   //  Traversal::bfs(file_management::transportationMap,"Sohag");
 
     QApplication a(argc, argv);
     welcome f;
