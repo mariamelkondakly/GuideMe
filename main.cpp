@@ -9,6 +9,7 @@
 //#include <iostream>
 #include "transportationdisplay.h"
 #include"welcome.h"
+#include"result.h"
 using namespace std;
 
 
