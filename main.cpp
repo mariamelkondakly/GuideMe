@@ -18,9 +18,9 @@ int main(int argc, char* argv[]) {
     file_management::readFile();
   //  file_management::test2();
    //  Traversal::bfs(file_management::transportationMap,"Sohag");
-
+file_management::read();
     QApplication a(argc, argv);
-    welcome f;
+    Result f;
     f.show();
     return a.exec();
 }

@@ -12,6 +12,8 @@ Result::Result(QWidget *parent)
 {
     ui->setupUi(this);
 
+    GUI_management::applyStylesheet(ui->scrollArea, file_management::css_path+"/ContainerWidget.css");
+    GUI_management::applyStylesheet(ui->scrollAreaWidgetContents_2, file_management::css_path+"/ContainerWidget.css");
 
 
     GUI_management::applyStylesheet(ui->widget, file_management::css_path+"/background.css");
