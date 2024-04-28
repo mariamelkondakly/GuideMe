@@ -2,13 +2,13 @@
 #define RESULT_H
 
 #include <QDialog>
-#include <QLabel>
-#include "file_management.h"
-#include "gui_management.h"
-#include <deque>>
-#include <qstring.h>
-#include <set>
-#include <vector>
+#include<qstring.h>
+#include<QLabel>
+#include"gui_management.h"
+#include"file_management.h"
+#include<vector>
+#include<deque>>
+#include<set>
 namespace Ui {
 class Result;
 }
@@ -16,14 +16,11 @@ class Result;
 class Result : public QDialog
 {
     Q_OBJECT
-    set<pair<int, string>> allpaths;
+    set<pair<int,string>>allpaths;
 
 public:
     explicit Result(QWidget *parent = nullptr);
-    void searching_roads(string node,
-                         string distinatation,
-                         unordered_map<string, bool> &vistited,
-                         deque<pair<pair<string, string>, pair<string, int>>> &road);
+    void searching_roads(string node,string distinatation,unordered_map<string,bool>&vistited,deque<pair<pair<string,string>,pair<string,int>>>&road);
     void display_roads();
     ~Result();
 

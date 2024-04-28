@@ -22,7 +22,7 @@ int main(int argc, char* argv[]) {
      Traversal::bfs(file_management::transportationMap,"Sohag");
 
     QApplication a(argc, argv);
-    welcome f;
+    Result f;
     f.show();
     return a.exec();
 }

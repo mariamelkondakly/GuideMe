@@ -18,7 +18,7 @@ class file_management
 public:
 
     file_management();
-
+    static QString css_path;
     static vector<QPair<string,string>> readFile();
     static QDir dir; //change it to make it run on your pc
     static unordered_map<string,unordered_map<string,vector<Edge>>> transportationMap;
