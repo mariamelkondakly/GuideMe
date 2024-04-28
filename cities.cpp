@@ -19,8 +19,8 @@ cities::cities(QWidget *parent)
 {
     vector<string> vec_cities;
     ui->setupUi(this);
-    GUI_management::applyStylesheet(ui->scrollArea, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/specialBackground.css"));
-    GUI_management::applyStylesheet(ui->title,file_management:: dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
+    GUI_management::applyStylesheet(ui->scrollArea,file_management::css_path+"/specialBackground.css");
+    GUI_management::applyStylesheet(ui->title,file_management::css_path+"/titleLabel.css");
     if (Traversal::bfsflag==false){
         vec_cities=Traversal::dfs(file_management::transportationMap,EditingFunctionalities::selectedSource);
     }
@@ -68,8 +68,8 @@ vector<QWidget*> cities::citiesDisplay(vector<QPair<std::string,std::string>> ve
         containerWidget->setLayout(layout2);
 
         vec.push_back(containerWidget);
-        GUI_management::applyStylesheet(cityName,file_management:: dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-        GUI_management::applyStylesheet(select,file_management:: dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
+        GUI_management::applyStylesheet(cityName,file_management::css_path+"/titleLabel.css");
+        GUI_management::applyStylesheet(select,file_management::css_path+"/PushButton.css");
     }
     return vec;
 }

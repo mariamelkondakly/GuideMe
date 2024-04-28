@@ -64,6 +64,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         result.cpp
         file_management.h
         result.h
+        CSS_styling/Result_Widgets.css
 
 
 

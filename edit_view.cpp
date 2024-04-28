@@ -12,14 +12,14 @@ edit_view::edit_view(QWidget *parent)
     , ui(new Ui::edit_view)
 {
     ui->setupUi(this);
-    GUI_management::applyStylesheet(ui->label_3,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->widget,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
-    GUI_management::applyStylesheet(ui->label,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->pushButton,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->label_2,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->label_4,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->lineEdit,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/textfields.css"));
-    GUI_management::applyStylesheet(ui->lineEdit_2,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/textfields.css"));
+    GUI_management::applyStylesheet(ui->label_3,file_management::css_path+"/titleLabel.css");
+    GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
+    GUI_management::applyStylesheet(ui->label,file_management::css_path+"/normalLabels.css");
+    GUI_management::applyStylesheet(ui->pushButton,file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->label_2,file_management::css_path+"/normalLabels.css");
+    GUI_management::applyStylesheet(ui->label_4,file_management::css_path+"/normalLabels.css");
+    GUI_management::applyStylesheet(ui->lineEdit,file_management::css_path+"/textfields.css");
+    GUI_management::applyStylesheet(ui->lineEdit_2,file_management::css_path+"/textfields.css");
 
 }
 

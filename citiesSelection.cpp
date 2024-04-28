@@ -16,14 +16,14 @@ citiesSelection::citiesSelection(QWidget *parent)
     , ui(new Ui::citiesSelection)
 {
     ui->setupUi(this);
-    GUI_management::applyStylesheet(ui->widget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
-    GUI_management::applyStylesheet(ui->title, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->next, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->sourceLabel, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->destinationLabel, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->warning, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/warningLabel.css"));
-    GUI_management::applyStylesheet(ui->destination, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/textfields.css"));
-    GUI_management::applyStylesheet(ui->source, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/textfields.css"));
+    GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
+    GUI_management::applyStylesheet(ui->title, file_management::css_path+"/titleLabel.css");
+    GUI_management::applyStylesheet(ui->next, file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->sourceLabel, file_management::css_path+"/normalLabels.css");
+    GUI_management::applyStylesheet(ui->destinationLabel, file_management::css_path+"/normalLabels.css");
+    GUI_management::applyStylesheet(ui->warning, file_management::css_path+"/warningLabel.css");
+    GUI_management::applyStylesheet(ui->destination, file_management::css_path+"/textfields.css");
+    GUI_management::applyStylesheet(ui->source, file_management::css_path+"/textfields.css");
     ui->warning->setVisible(false);
 
 }

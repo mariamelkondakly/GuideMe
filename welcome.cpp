@@ -8,16 +8,19 @@ welcome::welcome(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::welcome)
 {
+file_management::read();
+    //----------////////
     ui->setupUi(this);
-    GUI_management::applyStylesheet(ui->widget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
-    GUI_management::applyStylesheet(ui->label, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->pushButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->pushButton_2, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->label_2, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/welcometitle.css"));
+    GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
+    GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
+    GUI_management::applyStylesheet(ui->pushButton, file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->pushButton_2, file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->label_2, file_management::css_path+"/welcometitle.css");
 }
 
 welcome::~welcome()
 {
+    file_management::write();
     delete ui;
 }
 

@@ -17,14 +17,14 @@ transportationDisplay::transportationDisplay(QWidget *parent)
     , ui(new Ui::transportationDisplay)
 {
     ui->setupUi(this);
-    GUI_management::applyStylesheet(ui->container, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
-    GUI_management::applyStylesheet(ui->label, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
+    GUI_management::applyStylesheet(ui->container, file_management::css_path+"/background.css");
+    GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
     vector<QWidget *> widgets=transportationCreate();
     for (int i=0;i<widgets.size();i++) {
         ui->verticalLayout->addWidget(widgets[i]);
     }
     QPushButton *homeButton=new QPushButton("Return home");
-    GUI_management::applyStylesheet(homeButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
+    GUI_management::applyStylesheet(homeButton,file_management::css_path+"/PushButton.css");
     connect(homeButton, &QPushButton::clicked, this, &transportationDisplay::homeButtonClicked);
     QHBoxLayout *buttonLooks=new QHBoxLayout();
     QSpacerItem *horizontalSpacer = new QSpacerItem(900, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
