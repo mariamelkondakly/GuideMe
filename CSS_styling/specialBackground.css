@@ -1,6 +1,7 @@
 QWidget{
-background-image: url("C:/Users/MARIAM/qt Projects/GuideMe/Assets/special.jpg");
+background-image: url();
 background-repeat: no-repeat;
+background-color: rgba(14,22,38,200);
 width: 1170px;
 height: 800px;
 }

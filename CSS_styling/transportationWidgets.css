@@ -2,4 +2,5 @@ QWidget{
 background-color: rgba(14,22,38,150);
 background-image: url( background-image: );
 background-repeat: no-repeat;
+height:200px;
 }

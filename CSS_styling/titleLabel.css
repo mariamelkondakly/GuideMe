@@ -1,9 +1,9 @@
 QLabel{
 font-family: lucida handwriting;
 font-size: 40px;
-height:30px;
+height:50px;
 color: white;
 background-image: url( background-image: );
 background-repeat: no-repeat;
-
+background-color:rgba(0,0,0,0);
 }

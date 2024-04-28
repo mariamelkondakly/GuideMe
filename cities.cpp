@@ -19,8 +19,8 @@ cities::cities(QWidget *parent)
 {
     vector<string> vec_cities;
     ui->setupUi(this);
-    GUI_management::applyStylesheet(ui->scrollArea, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/specialBackground.css"));
-    GUI_management::applyStylesheet(ui->title,file_management:: dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
+    GUI_management::applyStylesheet(ui->scrollAreaWidgetContents, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/specialBackground.css"));
+    GUI_management::applyStylesheet(ui->label,file_management:: dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
     if (Traversal::bfsflag==false){
         vec_cities=Traversal::dfs(file_management::transportationMap,EditingFunctionalities::selectedSource);
     }
@@ -50,7 +50,7 @@ vector<QWidget*> cities::citiesDisplay(vector<QPair<std::string,std::string>> ve
                 QString ayHaga="";
                 ayHaga+="QWidget { background-image: url(";
                 ayHaga+=path;
-                ayHaga+=");}";
+                ayHaga+="); height:200px; background-size:cover;}";
                 containerWidget->setStyleSheet(ayHaga);
                 break;
              }
@@ -62,7 +62,7 @@ vector<QWidget*> cities::citiesDisplay(vector<QPair<std::string,std::string>> ve
         layout->addWidget(select);
         itemWidget->setLayout(layout);
         QVBoxLayout *layout2=new QVBoxLayout();
-        QSpacerItem *verticalSpacer = new QSpacerItem(20, 20, QSizePolicy::Minimum, QSizePolicy::Expanding);
+        QSpacerItem *verticalSpacer = new QSpacerItem(20, 900, QSizePolicy::Minimum, QSizePolicy::Expanding);
         layout2->addSpacerItem(verticalSpacer);
         layout2->addWidget(itemWidget);
         containerWidget->setLayout(layout2);
@@ -70,6 +70,8 @@ vector<QWidget*> cities::citiesDisplay(vector<QPair<std::string,std::string>> ve
         vec.push_back(containerWidget);
         GUI_management::applyStylesheet(cityName,file_management:: dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
         GUI_management::applyStylesheet(select,file_management:: dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
+        GUI_management::applyStylesheet(itemWidget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/transportationWidgets.css"));
+
     }
     return vec;
 }
