@@ -6,10 +6,10 @@
 183	3269	7359632202072349	CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj	de6f429546161fff
 6	161	7359683104560698	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
 6	161	7359683104560698	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-4865	5457	7359683157457447	GuideMe.exe	9994e920daf408d3
+3317	4186	7359691213435442	GuideMe.exe	9994e920daf408d3
 1810	5134	7359580706279174	CMakeFiles/GuideMe.dir/main.cpp.obj	a3724c8c418274c
 255	3558	7359586909275376	CMakeFiles/GuideMe.dir/file_management.cpp.obj	7c9680fd5a62d09b
-7	5884	7359631793151644	build.ninja	cb9e246314751ea7
+7	5884	7362043329612922	build.ninja	cb9e246314751ea7
 6	109	7354356501470904	.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake	1ae7071c69bdb8fb
 6	109	7354356501470904	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake	1ae7071c69bdb8fb
 229	2202	7356157915456847	CMakeFiles/GuideMe.dir/editorialfunctions.cpp.obj	e168805835df0833
@@ -21,21 +21,9 @@
 176	2701	7359683129939791	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
 183	2505	7359683127984833	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
 196	2551	7359683128445766	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
-14	156	7359680048778965	GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
-14	156	7359680048778965	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
-187	2751	7359683130449964	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
-156	3346	7359680080705539	CMakeFiles/GuideMe.dir/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp.obj	e65ef54e9dec6edd
-178	4865	7359683151584065	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
-1551	6341	7359630917156917	CMakeFiles/GuideMe.dir/citieslook.cpp.obj	e2f0d6d3ddab3563
-6	154	7359686632216078	GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
-6	154	7359686632216078	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
-154	3554	7359686666235122	CMakeFiles/GuideMe.dir/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp.obj	e65ef54e9dec6edd
-3554	4157	7359686672213437	GuideMe.exe	9994e920daf408d3
-6	145	7359689290059269	GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
-6	145	7359689290059269	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
-145	3181	7359689320427463	CMakeFiles/GuideMe.dir/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp.obj	e65ef54e9dec6edd
-3181	3754	7359689326120427	GuideMe.exe	9994e920daf408d3
 5	147	7359691174873875	GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
 5	147	7359691174873875	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
+187	2751	7359683130449964	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
 147	3317	7359691206597414	CMakeFiles/GuideMe.dir/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp.obj	e65ef54e9dec6edd
-3317	4186	7359691213435442	GuideMe.exe	9994e920daf408d3
+178	4865	7359683151584065	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+1551	6341	7359630917156917	CMakeFiles/GuideMe.dir/citieslook.cpp.obj	e2f0d6d3ddab3563

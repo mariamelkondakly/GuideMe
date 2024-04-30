@@ -940,6 +940,12 @@
 			null
 		],
 		[
+			"C:/Users/MARIAM/qt Projects/GuideMe/result.h",
+			"MU",
+			"EWIEGA46WW/moc_result.cpp",
+			null
+		],
+		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/transportationdisplay.h",
 			"MU",
 			"EWIEGA46WW/moc_transportationdisplay.cpp",
@@ -1070,6 +1076,7 @@
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/file_management.cpp", "MU", null ],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/gui_management.cpp", "MU", null ],
 		[ "C:/Users/MARIAM/qt Projects/GuideMe/main.cpp", "MU", null ],
+		[ "C:/Users/MARIAM/qt Projects/GuideMe/result.cpp", "MU", null ],
 		[
 			"C:/Users/MARIAM/qt Projects/GuideMe/transportationdisplay.cpp",
 			"MU",

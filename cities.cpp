@@ -21,7 +21,7 @@ cities::cities(QWidget *parent)
     ui->setupUi(this);
 
     GUI_management::applyStylesheet(ui->scrollArea,file_management::css_path+"/specialBackground.css");
-    GUI_management::applyStylesheet(ui->title,file_management::css_path+"/titleLabel.css");
+    GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
     if (Traversal::bfsflag==false){
         vec_cities=Traversal::dfs(file_management::transportationMap,EditingFunctionalities::selectedSource);
     }
