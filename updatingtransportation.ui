@@ -84,7 +84,7 @@
          </sizepolicy>
         </property>
         <property name="text">
-         <string>Enter your new Transportation means</string>
+         <string>Enter the updated Transportation means</string>
         </property>
         <property name="margin">
          <number>20</number>

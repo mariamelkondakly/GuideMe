@@ -17,7 +17,7 @@ transportationDisplay::transportationDisplay(QWidget *parent)
     , ui(new Ui::transportationDisplay)
 {
     ui->setupUi(this);
-    GUI_management::applyStylesheet(ui->container, file_management::css_path+"/background.css");
+    GUI_management::applyStylesheet(ui->Container, file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
     vector<QWidget *> widgets=transportationCreate();
     for (int i=0;i<widgets.size();i++) {

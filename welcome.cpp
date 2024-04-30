@@ -9,6 +9,8 @@ welcome::welcome(QWidget *parent)
     , ui(new Ui::welcome)
 {
 file_management::read();
+file_management::readFile();
+
     //----------////////
     ui->setupUi(this);
     GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");

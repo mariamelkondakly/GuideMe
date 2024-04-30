@@ -11,7 +11,7 @@
 
 using namespace std;
 
-QString file_management::css_path="C:/Users/mosta_ckzl9f2/OneDrive/Documents/GitHub/GuideMe/CSS_styling";
+QString file_management::css_path="C:/Users/Mariam/qt projects/GuideMe/CSS_styling";
 unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
 QDir file_management::dir("C:/Users/Mariam/qt projects");
 void file_management::test(){
@@ -108,11 +108,11 @@ void file_management::write()
          cout << "Error: Could not open the file 'backgrounds.txt'" << endl;
      }
 
-     // Print contents of pair vector
-     cout << "Contents of pair vector:" << endl;
-     for(const auto& p : pair) {
-         cout << p.first << " : " << p.second << endl;
-     }
+     // // Print contents of pair vector
+     // cout << "Contents of pair vector:" << endl;
+     // for(const auto& p : pair) {
+     //     cout << p.first << " : " << p.second << endl;
+     // }
 
      return pair;
  }
