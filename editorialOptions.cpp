@@ -15,11 +15,11 @@ editorialFunctions::editorialFunctions(QWidget *parent)
 {
     ui->setupUi(this);
 
-    GUI_management::applyStylesheet(ui->widget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
-    GUI_management::applyStylesheet(ui->label, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->DeleteButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->AddButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->EditButton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
+    GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
+    GUI_management::applyStylesheet(ui->label, file_management::css_path+"/titleLabel.css");
+    GUI_management::applyStylesheet(ui->DeleteButton, file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->AddButton, file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->EditButton, file_management::css_path+"/PushButton.css");
 }
 editorialFunctions::~editorialFunctions()
 {

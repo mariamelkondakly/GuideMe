@@ -60,6 +60,13 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         CSS_styling/costLabel.css
         build/Desktop_Qt_6_7_0_MSVC2019_64bit-Debug/backgrounds.txt
         CSS_styling/ContainerWidget.css
+        result.ui
+        result.cpp
+        file_management.h
+        result.h
+        CSS_styling/Result_Widgets.css
+
+
 
     )
 # Define target properties for Android with Qt 6 as:
