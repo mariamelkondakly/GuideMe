@@ -10,12 +10,13 @@
 #include "transportationdisplay.h"
 #include"welcome.h"
 #include"result.h"
+#include "splashScreen.h"
 using namespace std;
 
 
 int main(int argc, char* argv[]) {
     QApplication a(argc, argv);
-    welcome f;
+    SplashScreen f;
     f.show();
     return a.exec();
 }

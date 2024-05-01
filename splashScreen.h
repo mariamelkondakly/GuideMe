@@ -2,6 +2,11 @@
 #define SPLASHSCREEN_H
 
 #include <QWidget>
+#include <QtMultimediaWidgets/QtMultimediaWidgets>
+#include <QtMultimedia>
+#include <QtCore>
+#include <QtGui>
+
 
 namespace Ui {
 class SplashScreen;
