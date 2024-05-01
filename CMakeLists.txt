@@ -14,6 +14,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 find_package(Qt6 COMPONENTS Qml Quick REQUIRED)
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
 find_package(Qt6 REQUIRED COMPONENTS UiTools)
+find_package(Qt6 REQUIRED COMPONENTS Multimedia)
 
 
 set(PROJECT_SOURCES
@@ -65,6 +66,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         file_management.h
         result.h
         CSS_styling/Result_Widgets.css
+        splashScreen.h splashScreen.cpp splashScreen.ui
 
 
 
@@ -90,7 +92,8 @@ endif()
 target_link_libraries(GuideMe PRIVATE Qt${QT_VERSION_MAJOR}::Widgets
     Qt6::Qml
     Qt6::Quick
-Qt6::Widgets Qt6::UiTools)
+Qt6::Widgets Qt6::UiTools
+Qt6::Multimedia)
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
 # If you are developing for iOS or macOS you should consider setting an
 # explicit, fixed bundle identifier manually though.

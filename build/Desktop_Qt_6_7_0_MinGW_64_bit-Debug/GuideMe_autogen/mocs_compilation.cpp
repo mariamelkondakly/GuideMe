@@ -5,6 +5,7 @@
 #include "EWIEGA46WW/moc_edit_view.cpp"
 #include "EWIEGA46WW/moc_editorialOptions.cpp"
 #include "EWIEGA46WW/moc_result.cpp"
+#include "EWIEGA46WW/moc_splashScreen.cpp"
 #include "EWIEGA46WW/moc_transportationdisplay.cpp"
 #include "EWIEGA46WW/moc_updatingtransportation.cpp"
 #include "EWIEGA46WW/moc_welcome.cpp"
