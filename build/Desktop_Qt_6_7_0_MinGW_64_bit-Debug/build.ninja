@@ -326,7 +326,7 @@ build .qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake | ${cmake_ninja_workdir}.
 #############################################
 # Phony custom command for CMakeFiles\GuideMe_autogen_timestamp_deps
 
-build CMakeFiles/GuideMe_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/GuideMe_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6MultimediaWidgets.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.0/mingw_64/lib/libQt6UiTools.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Multimedia.a
+build CMakeFiles/GuideMe_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/GuideMe_autogen_timestamp_deps: phony C$:/Qt/6.7.0/mingw_64/./bin/uic.exe C$:/Qt/6.7.0/mingw_64/./bin/moc.exe C$:/Qt/6.7.0/mingw_64/lib/libQt6Core.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.0/mingw_64/lib/libQt6UiTools.a C$:/Qt/6.7.0/mingw_64/lib/libQt6Multimedia.a C$:/Qt/6.7.0/mingw_64/lib/libQt6MultimediaWidgets.a
 
 
 #############################################

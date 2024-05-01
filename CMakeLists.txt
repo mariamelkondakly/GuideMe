@@ -68,6 +68,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         result.h
         CSS_styling/Result_Widgets.css
         splashScreen.h splashScreen.cpp splashScreen.ui
+        Assets/train.gif Assets/train.mp4 Assets/train.png
 
 
 

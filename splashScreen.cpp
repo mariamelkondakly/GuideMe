@@ -9,10 +9,10 @@ SplashScreen::SplashScreen(QWidget *parent)
     , ui(new Ui::SplashScreen)
 {
     ui->setupUi(this);
-    QString filename="C:/Users/MARIAM/Downloads/train.mp4";
+    QString filename="C:/Users/MARIAM/qt projects/GuideMe/Assets/train.mp4";
     QMediaPlayer *player=new QMediaPlayer();
     QVideoWidget *video= new QVideoWidget();
-
+    video->setStyleSheet("QVideoWidget {background-color: white;}");
     player->setVideoOutput(video);
     player->setSource(QUrl(filename));
     ui->gridLayout->addWidget(video);

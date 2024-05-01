@@ -74,7 +74,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 25,
+				"line" : 26,
 				"parent" : 0
 			},
 			{
@@ -98,13 +98,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 112,
+				"line" : 115,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 92,
+				"line" : 94,
 				"parent" : 0
 			},
 			{
@@ -522,7 +522,7 @@
 			{
 				"command" : 17,
 				"file" : 1,
-				"line" : 119,
+				"line" : 122,
 				"parent" : 0
 			},
 			{
@@ -585,6 +585,10 @@
 				{
 					"backtrace" : 6,
 					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_MULTIMEDIAWIDGETS_LIB"
 				},
 				{
 					"backtrace" : 6,
@@ -739,6 +743,11 @@
 					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.7.0/mingw_64/include/QtMultimedia"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.7.0/mingw_64/include/QtMultimediaWidgets"
 				}
 			],
 			"language" : "CXX",
@@ -769,7 +778,7 @@
 				48,
 				55,
 				59,
-				72
+				75
 			]
 		}
 	],
@@ -780,11 +789,11 @@
 			"id" : "GuideMe_qmlimportscan::@6890427a1f51a3e7e1df"
 		},
 		{
-			"backtrace" : 0,
-			"id" : "GuideMe_autogen::@6890427a1f51a3e7e1df"
+			"id" : "GuideMe_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "GuideMe_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "GuideMe_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "GuideMe::@6890427a1f51a3e7e1df",
@@ -826,7 +835,7 @@
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "C:\\Qt\\6.7.0\\mingw_64\\lib\\libQt6Multimedia.a",
+				"fragment" : "C:\\Qt\\6.7.0\\mingw_64\\lib\\libQt6MultimediaWidgets.a",
 				"role" : "libraries"
 			},
 			{
@@ -855,13 +864,13 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 6,
-				"fragment" : "C:\\Qt\\6.7.0\\mingw_64\\lib\\libQt6Widgets.a",
+				"backtrace" : 40,
+				"fragment" : "C:\\Qt\\6.7.0\\mingw_64\\lib\\libQt6OpenGL.a",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 40,
-				"fragment" : "C:\\Qt\\6.7.0\\mingw_64\\lib\\libQt6OpenGL.a",
+				"backtrace" : 6,
+				"fragment" : "C:\\Qt\\6.7.0\\mingw_64\\lib\\libQt6Multimedia.a",
 				"role" : "libraries"
 			},
 			{
@@ -872,6 +881,11 @@
 			{
 				"backtrace" : 52,
 				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "C:\\Qt\\6.7.0\\mingw_64\\lib\\libQt6Widgets.a",
 				"role" : "libraries"
 			},
 			{
@@ -965,7 +979,7 @@
 				48,
 				55,
 				59,
-				72
+				75
 			]
 		},
 		{
@@ -986,16 +1000,16 @@
 				47,
 				56,
 				58,
-				61,
-				62,
-				63,
 				64,
 				65,
 				66,
 				67,
 				68,
 				69,
-				70
+				70,
+				71,
+				72,
+				73
 			]
 		},
 		{
@@ -1031,7 +1045,9 @@
 				54,
 				57,
 				60,
-				71
+				61,
+				62,
+				74
 			]
 		},
 		{
@@ -1039,15 +1055,16 @@
 			"sourceIndexes" : 
 			[
 				18,
-				24
+				24,
+				63
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				73,
-				74
+				76,
+				77
 			]
 		}
 	],
@@ -1374,6 +1391,21 @@
 			"backtrace" : 4,
 			"path" : "splashScreen.ui",
 			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Assets/train.gif",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Assets/train.mp4",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 4,
+			"path" : "Assets/train.png",
+			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
