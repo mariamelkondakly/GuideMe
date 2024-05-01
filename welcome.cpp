@@ -8,8 +8,6 @@ welcome::welcome(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::welcome)
 {
-file_management::read();
-file_management::readFile();
 
     //----------////////
     ui->setupUi(this);

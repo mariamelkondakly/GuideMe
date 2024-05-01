@@ -11,9 +11,9 @@
 
 using namespace std;
 
-QString file_management::css_path="C:/Users/Mariam/qt projects/GuideMe/CSS_styling";
+QString file_management::css_path="C:/Users/mosta_ckzl9f2/OneDrive/Documents/GitHub/second/GuideMe/CSS_styling";
 unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
-QDir file_management::dir("C:/Users/Mariam/qt projects");
+QDir file_management::dir("C:/Users\mosta_ckzl9f2\OneDrive\Documents\GitHub\second");
 void file_management::test(){
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {
@@ -41,26 +41,35 @@ void file_management::  read()
         string source, destination,transportation;
         int cost;
         istringstream iss(line);
-        iss >> source >> destination ;
+        string dash;
+        iss >> source >>dash>> destination ;
         while (iss >>transportation>>cost) {
             transportationMap[source][destination].push_back({transportation, cost});
+             transportationMap[destination][source].push_back({transportation, cost});
         }
     }
     data_read.close();
 }
 void file_management::write()
 {
+  map<pair<string,string>,bool>written;
 
     ofstream data_write("transportation_data.txt");
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {
-            data_write << source_data.first << " "
+            if(!written[{source_data.first,destination_data.first}])
+            {
+            data_write << source_data.first << " - "
                        << destination_data.first << " ";
             for (const auto& edge : destination_data.second) {
                 data_write<< edge.transportation << " "
                            << edge.cost <<" ";
             }
             data_write<<"\n";
+
+            written[{source_data.first,destination_data.first}]=1;
+            written[{destination_data.first,source_data.first}]=1;
+            }
         }
     }
     data_write.close();

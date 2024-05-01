@@ -84,6 +84,7 @@ void DataEntry::on_lineEdit_2_editingFinished()
            budget+=(int)(cost_budget[i]-'0');
     }
 
+
 }
 
 

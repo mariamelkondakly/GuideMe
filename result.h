@@ -9,6 +9,11 @@
 #include<vector>
 #include<deque>>
 #include<set>
+#include<QHBoxLayout>
+#include<iostream>
+#include"QSpacerItem"
+#include"editorialOptions.h"
+#include"welcome.h"
 namespace Ui {
 class Result;
 }
@@ -20,7 +25,7 @@ class Result : public QDialog
 
 public:
     explicit Result(QWidget *parent = nullptr);
-    void searching_roads(string node,string distinatation,unordered_map<string,bool>&vistited,deque<pair<pair<string,string>,pair<string,int>>>&road);
+    void searching_roads(string node,string distinatation,unordered_map<string,bool>&vistited,deque<pair<pair<string,string>,pair<string,int>>>&road,int total);
     void display_roads();
     ~Result();
 
