@@ -35,7 +35,10 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_pushButton_3_clicked();
+
 private:
+    bool search=0;
     Ui::Result *ui;
 };
 

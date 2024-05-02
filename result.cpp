@@ -15,7 +15,7 @@ Result::Result(QWidget *parent)
     GUI_management::applyStylesheet(ui->pushButton_2, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->title, file_management::css_path+"/titleLabel.css");
 
-    display_roads();
+    // display_roads();
 }
 
 void Result::searching_roads(string node,string distinatation,unordered_map<string, bool> &vistited, deque<pair<pair<string, string>, pair<string, int>>>&road,int total)
@@ -96,5 +96,15 @@ void Result::on_pushButton_2_clicked()
     hide();
     welcome *Welcome=new welcome();
     Welcome->show();
+}
+
+
+void Result::on_pushButton_3_clicked()
+{
+    if(!search)
+    {
+        search=1;
+     display_roads();
+    }
 }
 
