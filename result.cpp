@@ -22,6 +22,7 @@ void Result::searching_roads(string node,string distinatation,unordered_map<stri
 {
     if(vistited[node]||total>DataEntry::budget)return;
 
+       vistited[node]=true;
 
     if(node==distinatation){
         string path="";
@@ -29,10 +30,11 @@ void Result::searching_roads(string node,string distinatation,unordered_map<stri
             string source=temp.first.first, dist=temp.first.second;
             string transportation=temp.second.first;
             int cost=temp.second.second;
-            path+=source+" -> "+dist+" : "+transportation+" "+to_string(cost)+"$\n";
+            path+=source+" -> "+dist+" : "+transportation+" "+to_string(cost)+"EGP\n";
         }
         if(total<=DataEntry::budget)
         allpaths.insert({total,path});
+         vistited[node]=false;
         return;
     }
     unordered_map<string,vector<Edge>>::iterator child;
@@ -41,7 +43,6 @@ void Result::searching_roads(string node,string distinatation,unordered_map<stri
             road.push_back({{node,child->first},{transportation.transportation,transportation.cost}});
             searching_roads(child->first,distinatation,vistited,road,total+transportation.cost);
             road.pop_back();
-             vistited[node]=true;
         }
     }
     vistited[node]=false;
