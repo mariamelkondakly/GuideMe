@@ -14,27 +14,31 @@
 #include <QObject>
 #include "result.h"
 using namespace std;
+vector<string> vec_cities;
+
 cities::cities(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::cities)
 
 {
 
-    vector<string> vec_cities;
     ui->setupUi(this);
 
     GUI_management::applyStylesheet(ui->scrollAreaWidgetContents,file_management::css_path+"/specialBackground.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
     if (Traversal::bfsflag==false){
-        vec_cities=Traversal::dfs(file_management::transportationMap,EditingFunctionalities::selectedSource);
+        vec_cities=Traversal::dfs(EditingFunctionalities::selectedSource);
     }
     else{
-        vec_cities=Traversal::bfs(file_management::transportationMap,EditingFunctionalities::selectedSource);
+        vec_cities=Traversal::bfs(EditingFunctionalities::selectedSource);
     }
     ::vector <QWidget*> vec = citiesDisplay(file_management::readFile(),vec_cities);
+    cout<<"Vec_cities size "<<vec_cities.size()<<endl;
+    cout<<"Vec size "<<vec.size()<<endl;
     for (int i=0 ; i<vec.size();i++) {
         ui->verticalLayout->addWidget(vec[i]);
     }
+    Traversal::unvisited(EditingFunctionalities::selectedSource);
 }
 
 cities::~cities()
@@ -54,7 +58,7 @@ vector<QWidget*> cities::citiesDisplay(vector<QPair<std::string,std::string>> ve
                 QString ayHaga="";
                 ayHaga+="QWidget { background-image: url(";
                 ayHaga+=path;
-                ayHaga+="); height:200px; background-size:cover;}";
+                ayHaga+=");}";
                 containerWidget->setStyleSheet(ayHaga);
                 break;
              }

@@ -137,6 +137,8 @@ C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/G
   C:/Qt/6.7.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.7.0/mingw_64/include/QtGui/QPalette \
+  C:/Qt/6.7.0/mingw_64/include/QtGui/QPixmap \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qbrush.h \
@@ -169,12 +171,18 @@ C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/G
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHBoxLayout \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QSpacerItem \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qboxlayout.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qgridlayout.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -319,6 +327,7 @@ C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/G
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iomanip \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
@@ -415,5 +424,11 @@ C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/G
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/GUI_management.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/editorialOptions.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/file_management.h \
-  C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.h
+  C:/Users/MARIAM/qt\ Projects/GuideMe/gui_management.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/welcome.h
