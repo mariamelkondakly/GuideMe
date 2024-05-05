@@ -6,6 +6,7 @@
 #include "editorialOptions.h"
 #include "cities.h"
 #include "traversal.h"
+#include"welcome.h"
  int DataEntry:: budget ;
 DataEntry::DataEntry(QWidget *parent)
     : QWidget(parent)
@@ -20,6 +21,7 @@ DataEntry::DataEntry(QWidget *parent)
     GUI_management::applyStylesheet(ui->label_5, file_management::css_path+"/warningLabel.css");
     GUI_management::applyStylesheet(ui->pushButton,file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->pushButton_2, file_management::css_path+"/PushButton.css");
+     GUI_management::applyStylesheet(ui->back1putton, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->pushButton_3, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->lineEdit, file_management::css_path+"/textfields.css");
     GUI_management::applyStylesheet(ui->lineEdit_2, file_management::css_path+"/textfields.css");
@@ -94,4 +96,12 @@ void DataEntry::on_lineEdit_editingFinished()
 
 }
 
+
+
+void DataEntry::on_back1putton_clicked()
+{
+    hide();
+    welcome *window=new welcome();
+    window->show();
+}
 

@@ -1,6 +1,7 @@
 GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QDir \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QFile \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QPair \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
@@ -129,6 +130,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qtypes.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qvarlengtharray.h \
@@ -153,12 +155,14 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qpalette.h \
+  C:/Qt/6.7.0/mingw_64/include/QtGui/qpicture.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qpixmap.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qpolygon.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qregion.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qrgb.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.7.0/mingw_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiglobal.h \
@@ -166,8 +170,19 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHBoxLayout \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLabel \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QSpacerItem \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qboxlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qgridlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayout.h \
+  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsexports.h \
@@ -765,6 +780,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cpp_type_traits.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_forced.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/deque.tcc \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception.h \
@@ -815,6 +831,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_construct.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_deque.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_function.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator.h \
@@ -823,10 +840,12 @@ GuideMe_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_list.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multiset.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_numeric.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_pair.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_set.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tempbuf.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
@@ -858,6 +877,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cwctype \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/assertions.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/debug/debug.h \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/deque \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h \
@@ -890,6 +910,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_numeric_defs.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ratio \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/set \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/sstream \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdexcept \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/stdlib.h \
@@ -976,9 +997,18 @@ GuideMe_autogen/timestamp: \
   CMakeFiles/3.27.7/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.7/CMakeSystem.cmake \
   GuideMe_autogen/moc_predefs.h \
+  C:/Users/moust/Desktop/GuideMe/cities.cpp \
+  C:/Users/moust/Desktop/GuideMe/cities.h \
+  C:/Users/moust/Desktop/GuideMe/cities.ui \
   C:/Users/moust/Desktop/GuideMe/citiesSelection.cpp \
   C:/Users/moust/Desktop/GuideMe/citiesSelection.h \
   C:/Users/moust/Desktop/GuideMe/citiesSelection.ui \
+  C:/Users/moust/Desktop/GuideMe/dataentry.cpp \
+  C:/Users/moust/Desktop/GuideMe/dataentry.h \
+  C:/Users/moust/Desktop/GuideMe/dataentry.ui \
+  C:/Users/moust/Desktop/GuideMe/edit_view.cpp \
+  C:/Users/moust/Desktop/GuideMe/edit_view.h \
+  C:/Users/moust/Desktop/GuideMe/edit_view.ui \
   C:/Users/moust/Desktop/GuideMe/editingfunctionalities.cpp \
   C:/Users/moust/Desktop/GuideMe/editingfunctionalities.h \
   C:/Users/moust/Desktop/GuideMe/editorialOptions.cpp \
@@ -988,12 +1018,19 @@ GuideMe_autogen/timestamp: \
   C:/Users/moust/Desktop/GuideMe/file_management.h \
   C:/Users/moust/Desktop/GuideMe/gui_management.cpp \
   C:/Users/moust/Desktop/GuideMe/gui_management.h \
+  C:/Users/moust/Desktop/GuideMe/images.qrc \
   C:/Users/moust/Desktop/GuideMe/main.cpp \
+  C:/Users/moust/Desktop/GuideMe/result.cpp \
+  C:/Users/moust/Desktop/GuideMe/result.h \
+  C:/Users/moust/Desktop/GuideMe/result.ui \
   C:/Users/moust/Desktop/GuideMe/transportationdisplay.cpp \
   C:/Users/moust/Desktop/GuideMe/transportationdisplay.h \
   C:/Users/moust/Desktop/GuideMe/transportationdisplay.ui \
   C:/Users/moust/Desktop/GuideMe/traversal.cpp \
   C:/Users/moust/Desktop/GuideMe/traversal.h \
+  C:/Users/moust/Desktop/GuideMe/updatingtransportation.cpp \
+  C:/Users/moust/Desktop/GuideMe/updatingtransportation.h \
+  C:/Users/moust/Desktop/GuideMe/updatingtransportation.ui \
   C:/Users/moust/Desktop/GuideMe/welcome.cpp \
   C:/Users/moust/Desktop/GuideMe/welcome.h \
   C:/Users/moust/Desktop/GuideMe/welcome.ui

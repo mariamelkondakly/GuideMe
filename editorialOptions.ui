@@ -85,24 +85,7 @@
         </property>
        </widget>
       </item>
-      <item row="1" column="0">
-       <widget class="QPushButton" name="EditButton">
-        <property name="styleSheet">
-         <string notr="true"/>
-        </property>
-        <property name="text">
-         <string>Edit existing route</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
-       <widget class="QPushButton" name="AddButton">
-        <property name="text">
-         <string>Add a new route</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="0">
+      <item row="4" column="0">
        <widget class="QPushButton" name="DeleteButton">
         <property name="font">
          <font>
@@ -121,6 +104,30 @@
         </property>
         <property name="text">
          <string>Delete a route</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="AddButton">
+        <property name="text">
+         <string>Add a new route</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="EditButton">
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string>Edit existing route</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QPushButton" name="back1putton">
+        <property name="text">
+         <string>back</string>
         </property>
        </widget>
       </item>

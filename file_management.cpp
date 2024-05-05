@@ -11,9 +11,9 @@
 
 using namespace std;
 
-QString file_management::css_path="C:/Users/mosta_ckzl9f2/OneDrive/Documents/GitHub/second/GuideMe/CSS_styling";
+QString file_management::css_path="C:/Users/moust/Desktop/GuideMe/CSS_styling";
 unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
-QDir file_management::dir("C:/Users\mosta_ckzl9f2\OneDrive\Documents\GitHub\second");
+QDir file_management::dir("C:/Users/moust/Desktop");
 void file_management::test(){
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {

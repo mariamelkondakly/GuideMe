@@ -26,6 +26,8 @@ private slots:
 
     void on_lineEdit_editingFinished();
 
+    void on_back1putton_clicked();
+
 private:
     Ui::DataEntry *ui;
 };

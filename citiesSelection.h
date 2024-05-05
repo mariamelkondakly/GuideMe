@@ -29,6 +29,8 @@ private slots:
 
     void on_next_clicked();
 
+    void on_backPutton_clicked();
+
 private:
     Ui::citiesSelection *ui;
 };
