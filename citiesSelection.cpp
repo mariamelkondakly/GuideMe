@@ -3,6 +3,7 @@
 #include "file_management.h"
 #include "editorialOptions.h"
 #include"edit_view.h"
+#include"editorialOptions.h"
 
 
 using namespace std;
@@ -19,6 +20,7 @@ citiesSelection::citiesSelection(QWidget *parent)
     GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->title, file_management::css_path+"/titleLabel.css");
     GUI_management::applyStylesheet(ui->next, file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->backPutton, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->sourceLabel, file_management::css_path+"/normalLabels.css");
     GUI_management::applyStylesheet(ui->destinationLabel, file_management::css_path+"/normalLabels.css");
     GUI_management::applyStylesheet(ui->warning, file_management::css_path+"/warningLabel.css");
@@ -78,5 +80,13 @@ void citiesSelection::on_next_clicked()
         }
     }
 
+}
+
+
+void citiesSelection::on_backPutton_clicked()
+{
+    hide();
+    editorialFunctions *window=new editorialFunctions();
+    window->show();
 }
 

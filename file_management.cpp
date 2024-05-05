@@ -11,9 +11,11 @@
 
 using namespace std;
 
+
 QString file_management::css_path="C:/Users/Mariam/qt projects/GuideMe/CSS_styling";
 unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
 QDir file_management::dir("C:/Users/Mariam/qt projects");
+
 void file_management::test(){
     for (const auto& source_data : transportationMap) {
         for (const auto& destination_data : source_data.second) {

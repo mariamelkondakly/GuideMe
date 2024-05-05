@@ -3,6 +3,7 @@
 #include "file_management.h"
 #include "updatingtransportation.h"
 #include "GUI_management.h"
+#include "welcome.h"
 #include <QDir>
 
 bool editorialFunctions::deleteFlag = false;
@@ -20,6 +21,7 @@ editorialFunctions::editorialFunctions(QWidget *parent)
     GUI_management::applyStylesheet(ui->DeleteButton, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->AddButton, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->EditButton, file_management::css_path+"/PushButton.css");
+    GUI_management::applyStylesheet(ui->back1putton, file_management::css_path+"/PushButton.css");
 }
 editorialFunctions::~editorialFunctions()
 {
@@ -58,6 +60,14 @@ void editorialFunctions::on_AddButton_clicked()
     addFlag=true;
     hide();
     citiesSelection *window=new citiesSelection();
+    window->show();
+}
+
+
+void editorialFunctions::on_back1putton_clicked()
+{
+    hide();
+    welcome *window=new welcome();
     window->show();
 }
 
