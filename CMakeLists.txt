@@ -65,6 +65,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         file_management.h
         result.h
         CSS_styling/Result_Widgets.css
+        build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/backgrounds.txt
 
 
 

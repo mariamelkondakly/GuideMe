@@ -10,8 +10,9 @@ public:
     static bool bfsflag;
     static bool dfsflag;
   static map<string,bool> visited;
-    static vector<string> dfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
-  static vector<string> bfs(unordered_map<string,unordered_map<string,vector<Edge>>> &transportationMap,string start);
+    static vector<string> dfs(string start);
+  static vector<string> bfs(string start);
+    static void unvisited(string start);
 };
 
 #endif // TRAVERSAL_H

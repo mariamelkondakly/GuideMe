@@ -67,10 +67,10 @@ vector<QWidget *>transportationDisplay::transportationCreate()
         horizontalLayout->addWidget(selectbutton);
         item->setLayout(horizontalLayout);
 
-        GUI_management::applyStylesheet(transportation, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/listLabel.css"));
-        GUI_management::applyStylesheet(transportationc, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/costLabel.css"));
-        GUI_management::applyStylesheet(selectbutton, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-        GUI_management::applyStylesheet(item,file_management::dir.relativeFilePath("/GuideMe/CSS_styling/transportationWidgets.css"));
+        GUI_management::applyStylesheet(transportation, file_management::css_path+("/listLabel.css"));
+        GUI_management::applyStylesheet(transportationc, file_management::css_path+("/costLabel.css"));
+        GUI_management::applyStylesheet(selectbutton, file_management::css_path+("/PushButton.css"));
+        GUI_management::applyStylesheet(item,file_management::css_path+("/transportationWidgets.css"));
         transportationWidgets.push_back(item);
 
 
@@ -94,7 +94,7 @@ void transportationDisplay::handleSelectButtonClicked()
             int ret=alert.exec();
 
             QLabel *warning=new QLabel("This is last Transportation. It can't be deleted.");
-            GUI_management::applyStylesheet(warning, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/warningLabel.css"));
+            GUI_management::applyStylesheet(warning, file_management::css_path+("/warningLabel.css"));
             warning->setVisible(false);
             ui->verticalLayout->addWidget(warning);
 
