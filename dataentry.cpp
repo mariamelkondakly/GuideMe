@@ -52,8 +52,9 @@ void DataEntry::on_pushButton_2_clicked()
         ui->label_5->setVisible(true);
     }
     else{
+
         if (file_management::transportationMap.find(EditingFunctionalities::selectedSource) != file_management::transportationMap.end()) {
-            if (budget>0)
+            if (budget>0 && check_budget)
             {
                 ui->label_5->setVisible(false);
                 if(!Traversal::bfsflag && !Traversal::dfsflag){
@@ -81,12 +82,14 @@ void DataEntry::on_pushButton_2_clicked()
 void DataEntry::on_lineEdit_2_editingFinished()
 {
    string cost_budget =ui->lineEdit_2->text().toStdString();
+    check_budget=1;
     for(int i=0;i<cost_budget.length();i++){
+
+       if(!(cost_budget[i]>='0'&&cost_budget[i]<='9'))
+            check_budget=0;
            budget*=10;
            budget+=(int)(cost_budget[i]-'0');
     }
-
-
 }
 
 

@@ -130,6 +130,7 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtversionchecks.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtypeinfo.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qtypes.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtCore/qurl.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qutf8stringview.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qvariant.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtCore/qvarlengtharray.h \
@@ -154,12 +155,14 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qkeysequence.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpaintdevice.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpalette.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpicture.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpixelformat.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpixmap.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qpolygon.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qregion.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qrgb.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qrgba64.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtGui/qtextdocument.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qtgui-config.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qtguiexports.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qtguiglobal.h \
@@ -167,8 +170,19 @@ GuideMe_autogen/timestamp: \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QApplication \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QDialog \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QHBoxLayout \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QLabel \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QSpacerItem \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/QWidget \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qapplication.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qboxlayout.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qdialog.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qframe.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qgridlayout.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qlabel.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qlayout.h \
+  C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qlayoutitem.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qtwidgets-config.h \
   C:/Qt/6.7.0/msvc2019_64/include/QtWidgets/qtwidgetsexports.h \
@@ -1084,6 +1098,9 @@ GuideMe_autogen/timestamp: \
   C:/Users/dell/Desktop/GuideMe/gui_management.h \
   C:/Users/dell/Desktop/GuideMe/images.qrc \
   C:/Users/dell/Desktop/GuideMe/main.cpp \
+  C:/Users/dell/Desktop/GuideMe/result.cpp \
+  C:/Users/dell/Desktop/GuideMe/result.h \
+  C:/Users/dell/Desktop/GuideMe/result.ui \
   C:/Users/dell/Desktop/GuideMe/transportationdisplay.cpp \
   C:/Users/dell/Desktop/GuideMe/transportationdisplay.h \
   C:/Users/dell/Desktop/GuideMe/transportationdisplay.ui \

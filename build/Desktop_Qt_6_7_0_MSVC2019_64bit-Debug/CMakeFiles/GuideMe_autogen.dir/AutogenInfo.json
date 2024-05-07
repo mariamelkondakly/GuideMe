@@ -1321,6 +1321,12 @@
 			null
 		],
 		[
+			"C:/Users/dell/Desktop/GuideMe/result.h",
+			"MU",
+			"EWIEGA46WW/moc_result.cpp",
+			null
+		],
+		[
 			"C:/Users/dell/Desktop/GuideMe/transportationdisplay.h",
 			"MU",
 			"EWIEGA46WW/moc_transportationdisplay.cpp",
@@ -1431,6 +1437,7 @@
 		[ "C:/Users/dell/Desktop/GuideMe/file_management.cpp", "MU", null ],
 		[ "C:/Users/dell/Desktop/GuideMe/gui_management.cpp", "MU", null ],
 		[ "C:/Users/dell/Desktop/GuideMe/main.cpp", "MU", null ],
+		[ "C:/Users/dell/Desktop/GuideMe/result.cpp", "MU", null ],
 		[ "C:/Users/dell/Desktop/GuideMe/transportationdisplay.cpp", "MU", null ],
 		[ "C:/Users/dell/Desktop/GuideMe/traversal.cpp", "MU", null ],
 		[

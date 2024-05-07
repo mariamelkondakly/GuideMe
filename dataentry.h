@@ -15,6 +15,7 @@ public:
     explicit DataEntry(QWidget *parent = nullptr);
     ~DataEntry();
     static int budget ;
+    bool check_budget;
 private slots:
     void on_pushButton_clicked();
 
