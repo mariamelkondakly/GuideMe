@@ -17,6 +17,7 @@ public:
 
 private:
     Ui::updatingTransportation *ui;
+    void on_Update_clicked();
 };
 
 #endif // UPDATINGTRANSPORTATION_H

@@ -18,6 +18,7 @@ bool EditingFunctionalities::add(Edge e1,string source,string destination){
     }
     if(exist==0){
         file_management::transportationMap[source][destination].push_back(e1);
+        file_management::transportationMap[destination][source].push_back(e1);
     }else{
         return 0;
     }
@@ -26,6 +27,7 @@ bool EditingFunctionalities::add(Edge e1,string source,string destination){
 
 //Delete function
 bool EditingFunctionalities::deleting() {
+
     if (file_management::transportationMap[EditingFunctionalities::selectedSource][EditingFunctionalities::selectedDestination].size() == 1) {
         return false; // If there is only one transportation option, cannot delete
     }
@@ -40,7 +42,15 @@ bool EditingFunctionalities::deleting() {
         }
     }
 
+    transportationMap = file_management::transportationMap[EditingFunctionalities::selectedDestination][EditingFunctionalities::selectedSource];
+    for (auto it = transportationMap.begin(); it != transportationMap.end(); ++it) {
+        if (it->transportation == EditingFunctionalities::selectedTransportation) {
+            transportationMap.erase(it);
+            return true; // Deletion successful
+        }
     }
+
+ }
 
 }
 
