@@ -77,27 +77,6 @@ void file_management::write()
     data_write.close();
  }
 
-// vector<QPair<string,string>> file_management::readFile(){
-//     fstream myFile;
-//     myFile.open("backgrounds.txt", ios::in);
-//     string line;
-//     vector<QPair<string,string>> pair;
-//     if(myFile.is_open()){
-//         while(getline(myFile, line)){
-//             string city, path;
-//             QString p;
-//             istringstream iss(line);
-//             if(iss >> city >> path){
-//                 p = QString::fromStdString(path);
-//                 QString newPath = QString::fromStdString(dir.relativeFilePath(p).toStdString());
-//                 pair.push_back({city, newPath.toStdString()});
-//             }
-//         }
-//         myFile.close();
-//     }
-//     return pair;
-// }
-
  vector<QPair<string,string>> file_management::readFile(){
      fstream myFile;
      myFile.open("backgrounds.txt");
@@ -118,12 +97,6 @@ void file_management::write()
      } else {
          cout << "Error: Could not open the file 'backgrounds.txt'" << endl;
      }
-
-     // // Print contents of pair vector
-     // cout << "Contents of pair vector:" << endl;
-     // for(const auto& p : pair) {
-     //     cout << p.first << " : " << p.second << endl;
-     // }
 
      return pair;
  }
