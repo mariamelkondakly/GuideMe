@@ -37,13 +37,15 @@ citiesSelection::~citiesSelection()
 
 void citiesSelection::on_source_editingFinished()
 {
-    EditingFunctionalities::selectedSource=ui->source->text().toStdString();
+    QString source = EditingFunctionalities::capitalize( ui->source->text().toLower() );
+    EditingFunctionalities::selectedSource = source.toStdString();
 }
 
 
 void citiesSelection::on_destination_editingFinished()
 {
-    EditingFunctionalities::selectedDestination=ui->destination->text().toStdString();
+    QString destination = EditingFunctionalities::capitalize( ui->destination->text().toLower() );
+    EditingFunctionalities::selectedDestination = destination.toStdString();
 }
 
 

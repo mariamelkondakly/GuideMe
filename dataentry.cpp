@@ -52,7 +52,6 @@ void DataEntry::on_pushButton_2_clicked()
         ui->label_5->setVisible(true);
     }
     else{
-
         if (file_management::transportationMap.find(EditingFunctionalities::selectedSource) != file_management::transportationMap.end()) {
             if (budget>0 && check_budget)
             {
@@ -87,16 +86,16 @@ void DataEntry::on_lineEdit_2_editingFinished()
 
        if(!(cost_budget[i]>='0'&&cost_budget[i]<='9'))
             check_budget=0;
-           budget*=10;
-           budget+=(int)(cost_budget[i]-'0');
+            budget*=10;
+            budget+=(int)(cost_budget[i]-'0');
     }
 }
 
 
 void DataEntry::on_lineEdit_editingFinished()
 {
-     EditingFunctionalities::selectedSource =ui->lineEdit->text().toStdString();
-
+    QString source = EditingFunctionalities::capitalize( ui->lineEdit->text().toLower() );
+    EditingFunctionalities::selectedSource = source.toStdString();
 }
 
 
