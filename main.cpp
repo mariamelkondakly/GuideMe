@@ -16,7 +16,7 @@ using namespace std;
 int main(int argc, char* argv[]) {
     file_management::read();
     file_management::readFile();
-
+//
     QApplication a(argc, argv);
     welcome f;
     f.show();
