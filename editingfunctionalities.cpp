@@ -12,11 +12,13 @@ bool EditingFunctionalities::add(Edge e1,string source,string destination){
     //check source and destaination waiting
     bool exist=0;
     for (int i = 0; i < file_management::transportationMap[source][destination].size() ; i++) {
-        if(file_management::transportationMap[source][destination] [i].transportation==e1.transportation){
+        if(file_management::transportationMap[source][destination][i].transportation == e1.transportation){
             exist=1;
         }
     }
     if(exist==0){
+        QString transportation = capitalize(QString::fromStdString(e1.transportation));
+        e1.transportation = transportation.toStdString();
         file_management::transportationMap[source][destination].push_back(e1);
         file_management::transportationMap[destination][source].push_back(e1);
     }else{
@@ -24,6 +26,16 @@ bool EditingFunctionalities::add(Edge e1,string source,string destination){
     }
     return 1;
 }
+
+QString EditingFunctionalities::capitalize(const QString &str)
+{
+    QString tmp = str;
+    // if you want to ensure all other letters are lowercase:
+    tmp = tmp.toLower();
+    tmp[0] = str[0].toUpper();
+    return tmp;
+}
+
 
 //Delete function
 bool EditingFunctionalities::deleting() {

@@ -12,7 +12,7 @@ public:
     static bool add(Edge e1,string source,string destination);
     static bool connection();
     static bool deleting();
-
+    static QString capitalize(const QString &str);
 
 };
 

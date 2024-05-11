@@ -1,0 +1,190 @@
+Asyut - Minya Train 800 Bus 900 Microbus 750 
+Asyut - Mansoura Train 900 Bus 1000 Microbus 850 
+Asyut - Sohag Train 600 Bus 700 Microbus 550 
+Asyut - Aswan Train 200 Bus 300 Microbus 150 
+Asyut - Banha Train 100 Bus 200 Microbus 50 
+Asyut - Damanhur Train 400 Bus 500 Microbus 350 
+Asyut - Fayoum Train 600 Bus 700 Microbus 550 
+Asyut - Qena Train 700 Bus 800 Microbus 650 
+Asyut - Alexandria Train 500 Bus 600 Microbus 450 
+Asyut - Suez Train 500 Bus 600 Microbus 450 
+Asyut - Zagazig Train 300 Bus 400 Microbus 250 
+Asyut - Cairo Train 300 Bus 400 Microbus 250 
+Asyut - Ismailia Train 900 Bus 1000 Microbus 850 
+Asyut - Hurghada Train 800 Bus 900 Microbus 750 
+Asyut - BeniSuef Train 200 Bus 300 Microbus 150 
+Asyut - Tanta Train 400 Bus 500 Microbus 350 
+Asyut - Damietta Train 500 Bus 600 Microbus 450 
+Asyut - Luxor Train 1000 Bus 1100 Microbus 950 
+Asyut - Giza Train 700 Bus 800 Microbus 650 
+Minya - Sohag Bus 200 Microbus 100 
+Minya - Aswan Train 300 Bus 400 Microbus 250 
+Minya - Banha Bus 1100 Microbus 950 
+Minya - Damanhur Bus 800 Microbus 400 
+Minya - Alexandria Train 500 Bus 600 Microbus 450 
+Minya - Qena Bus 100 Microbus 50 
+Minya - Fayoum Bus 600 Microbus 300 
+Minya - Suez Bus 300 Microbus 150 
+Minya - Zagazig Bus 500 Microbus 250 
+Minya - Mansoura Bus 100 Microbus 50 
+Minya - Cairo Train 900 Bus 1000 Microbus 850 
+Minya - Ismailia Bus 300 Microbus 150 
+Minya - Hurghada Bus 400 Microbus 200 
+Minya - BeniSuef Bus 1000 Microbus 850 
+Minya - Tanta Bus 400 Microbus 200 
+Minya - Damietta Bus 900 Microbus 450 
+Minya - Luxor Bus 200 Microbus 100 
+Minya - Giza Bus 500 Microbus 250 
+Mansoura - Sohag Bus 300 Microbus 150 
+Mansoura - Aswan Train 200 Bus 300 Microbus 150 
+Mansoura - Banha Bus 1000 Microbus 850 
+Mansoura - Damanhur Bus 700 Microbus 350 
+Mansoura - Qena Bus 200 Microbus 100 
+Mansoura - Fayoum Bus 500 Microbus 250 
+Mansoura - Alexandria Train 400 Bus 500 Microbus 350 
+Mansoura - Suez Bus 400 Microbus 200 
+Mansoura - Zagazig Bus 600 Microbus 300 
+Mansoura - Cairo Train 800 Bus 900 Microbus 750 
+Mansoura - Ismailia Bus 200 Microbus 100 
+Mansoura - Hurghada Bus 300 Microbus 150 
+Mansoura - BeniSuef Bus 900 Microbus 750 
+Mansoura - Tanta Bus 500 Microbus 250 
+Mansoura - Damietta Bus 800 Microbus 400 
+Mansoura - Luxor Bus 100 Microbus 50 
+Mansoura - Giza Bus 400 Microbus 200 
+Sohag - Aswan Train 500 Bus 600 Microbus 450 
+Sohag - Banha Bus 1300 Microbus 1150 
+Sohag - Damanhur Bus 1000 Microbus 500 
+Sohag - Fayoum Bus 800 Microbus 400 
+Sohag - Qena Bus 100 Microbus 50 
+Sohag - Alexandria Train 800 Bus 900 Microbus 750 
+Sohag - Suez Bus 100 Microbus 50 
+Sohag - Zagazig Bus 300 Microbus 150 
+Sohag - Cairo Train 1100 Bus 1200 Microbus 1050 
+Sohag - Ismailia Bus 500 Microbus 250 
+Sohag - Hurghada Bus 600 Microbus 300 
+Sohag - BeniSuef Bus 1200 Microbus 1050 
+Sohag - Tanta Bus 200 Microbus 100 
+Sohag - Damietta Bus 1100 Microbus 550 
+Sohag - Luxor Bus 400 Microbus 200 
+Sohag - Giza Bus 700 Microbus 350 
+Aswan - Banha Train 400 Bus 500 Microbus 350 
+Aswan - Damanhur Train 700 Bus 800 Microbus 650 
+Aswan - Fayoum Train 500 Bus 600 Microbus 450 
+Aswan - Qena Train 400 Bus 500 Microbus 350 
+Aswan - Alexandria Train 600 Bus 700 Microbus 550 
+Aswan - Suez Train 600 Bus 700 Microbus 550 
+Aswan - Zagazig Train 800 Bus 900 Microbus 750 
+Aswan - Cairo Train 600 Bus 700 Microbus 550 
+Aswan - Ismailia Train 200 Bus 300 Microbus 150 
+Aswan - Hurghada Train 300 Bus 400 Microbus 250 
+Aswan - BeniSuef Train 500 Bus 600 Microbus 450 
+Aswan - Tanta Train 700 Bus 800 Microbus 650 
+Aswan - Damietta Train 800 Bus 900 Microbus 750 
+Aswan - Luxor Train 100 Bus 200 Microbus 50 
+Aswan - Giza Train 400 Bus 500 Microbus 350 
+Banha - Damanhur Bus 300 Microbus 200 
+Banha - Fayoum Bus 500 Microbus 350 
+Banha - Qena Bus 1200 Microbus 1050 
+Banha - Alexandria Bus 200 Microbus 150 
+Banha - Suez Bus 1400 Microbus 1250 
+Banha - Zagazig Bus 1600 Microbus 1450 
+Banha - Cairo Bus 200 Microbus 150 
+Banha - Ismailia Bus 800 Microbus 650 
+Banha - Hurghada Bus 700 Microbus 550 
+Banha - BeniSuef Bus 100 Microbus 50 
+Banha - Tanta Bus 1500 Microbus 1350 
+Banha - Damietta Bus 400 Microbus 250 
+Banha - Luxor Bus 900 Microbus 750 
+Banha - Giza Bus 600 Microbus 450 
+Damanhur - Qena Bus 900 Microbus 450 
+Damanhur - Fayoum Bus 200 Microbus 100 
+Damanhur - Alexandria Train 300 Bus 400 Microbus 250 
+Damanhur - Suez Bus 1100 Microbus 550 
+Damanhur - Zagazig Bus 1300 Microbus 650 
+Damanhur - Cairo Train 100 Bus 200 Microbus 150 
+Damanhur - Ismailia Bus 500 Microbus 250 
+Damanhur - Hurghada Bus 400 Microbus 200 
+Damanhur - BeniSuef Bus 200 Microbus 150 
+Damanhur - Tanta Bus 1200 Microbus 600 
+Damanhur - Damietta Bus 100 Microbus 50 
+Damanhur - Luxor Bus 600 Microbus 300 
+Damanhur - Giza Bus 300 Microbus 150 
+Qena - Alexandria Train 600 Bus 700 Microbus 550 
+Qena - Fayoum Bus 700 Microbus 350 
+Qena - Suez Bus 200 Microbus 100 
+Qena - Zagazig Bus 400 Microbus 200 
+Qena - Cairo Train 1000 Bus 1100 Microbus 950 
+Qena - Ismailia Bus 400 Microbus 200 
+Qena - Hurghada Bus 500 Microbus 250 
+Qena - BeniSuef Bus 1100 Microbus 950 
+Qena - Tanta Bus 300 Microbus 150 
+Qena - Damietta Bus 1000 Microbus 500 
+Qena - Luxor Bus 300 Microbus 150 
+Qena - Giza Bus 600 Microbus 300 
+Fayoum - Alexandria Train 200 Bus 300 Microbus 150 
+Fayoum - Suez Bus 900 Microbus 450 
+Fayoum - Zagazig Bus 1100 Microbus 550 
+Fayoum - Cairo Train 300 Bus 400 Microbus 250 
+Fayoum - Ismailia Bus 300 Microbus 150 
+Fayoum - Hurghada Bus 200 Microbus 100 
+Fayoum - BeniSuef Bus 400 Microbus 250 
+Fayoum - Tanta Bus 1000 Microbus 500 
+Fayoum - Damietta Bus 300 Microbus 150 
+Fayoum - Luxor Bus 400 Microbus 200 
+Fayoum - Giza Bus 100 Microbus 50 
+Alexandria - Suez Train 400 Bus 500 Microbus 350 
+Alexandria - Zagazig Train 200 Bus 300 Microbus 150 
+Alexandria - Cairo Train 400 Bus 500 Microbus 350 
+Alexandria - Ismailia Bus 150 Microbus 100 
+Alexandria - Hurghada Bus 300 Microbus 250 
+Alexandria - BeniSuef Bus 300 Microbus 250 
+Alexandria - Tanta Train 300 Bus 400 Microbus 250 
+Alexandria - Damietta Bus 100 Microbus 50 
+Alexandria - Luxor Train 700 Bus 800 Microbus 650 
+Alexandria - Giza Train 100 Bus 200 Microbus 50 
+Suez - Zagazig Bus 200 Microbus 100 
+Suez - Cairo Train 1200 Bus 1300 Microbus 1150 
+Suez - Ismailia Bus 600 Microbus 300 
+Suez - Hurghada Bus 700 Microbus 350 
+Suez - BeniSuef Bus 1300 Microbus 1150 
+Suez - Tanta Bus 100 Microbus 50 
+Suez - Damietta Bus 1200 Microbus 600 
+Suez - Luxor Bus 500 Microbus 250 
+Suez - Giza Bus 800 Microbus 400 
+Zagazig - Cairo Train 1400 Bus 1500 Microbus 1350 
+Zagazig - Ismailia Bus 800 Microbus 400 
+Zagazig - Hurghada Bus 900 Microbus 450 
+Zagazig - BeniSuef Bus 1500 Microbus 1350 
+Zagazig - Tanta Bus 100 Microbus 50 
+Zagazig - Damietta Bus 1400 Microbus 700 
+Zagazig - Luxor Bus 700 Microbus 350 
+Zagazig - Giza Bus 1000 Microbus 500 
+Cairo - Ismailia Train 600 Bus 700 Microbus 550 
+Cairo - Hurghada Train 500 Bus 600 Microbus 450 
+Cairo - BeniSuef Bus 100 Microbus 50 
+Cairo - Tanta Train 1300 Bus 1400 Microbus 1250 
+Cairo - Damietta Train 200 Bus 300 Microbus 200 
+Cairo - Luxor Train 700 Bus 800 Microbus 650 
+Cairo - Giza Uber 100 Bike 20 Microbus 350 Didi 170 
+Ismailia - Hurghada Bus 100 Microbus 50 
+Ismailia - BeniSuef Bus 700 Microbus 550 
+Ismailia - Tanta Bus 700 Microbus 350 
+Ismailia - Damietta Bus 600 Microbus 300 
+Ismailia - Luxor Bus 100 Microbus 50 
+Ismailia - Giza Bus 200 Microbus 100 
+Hurghada - BeniSuef Bus 600 Microbus 450 
+Hurghada - Tanta Bus 800 Microbus 400 
+Hurghada - Damietta Bus 500 Microbus 250 
+Hurghada - Luxor Bus 200 Microbus 100 
+Hurghada - Giza Bus 100 Microbus 50 
+BeniSuef - Tanta Bus 1400 Microbus 1250 
+BeniSuef - Damietta Bus 300 Microbus 200 
+BeniSuef - Luxor Bus 800 Microbus 650 
+BeniSuef - Giza Bus 500 Microbus 350 
+Tanta - Damietta Bus 1300 Microbus 650 
+Tanta - Luxor Bus 600 Microbus 300 
+Tanta - Giza Bus 900 Microbus 450 
+Damietta - Luxor Bus 700 Microbus 350 
+Damietta - Giza Bus 400 Microbus 200 
+Luxor - Giza Bus 300 Microbus 150 
