@@ -7,7 +7,8 @@ Result::Result(QWidget *parent)
     , ui(new Ui::Result)
 {
     ui->setupUi(this);
-
+    this->showMaximized();
+    this->setWindowTitle("Search Results");
     GUI_management::applyStylesheet(ui->scrollArea, file_management::css_path+"/ContainerWidget.css");
     GUI_management::applyStylesheet(ui->scrollAreaWidgetContents_2, file_management::css_path+"/ContainerWidget.css");
     GUI_management::applyStylesheet(ui->widget, file_management::css_path+"/background.css");

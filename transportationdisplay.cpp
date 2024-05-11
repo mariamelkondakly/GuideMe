@@ -17,6 +17,9 @@ transportationDisplay::transportationDisplay(QWidget *parent)
     , ui(new Ui::transportationDisplay)
 {
     ui->setupUi(this);
+    this->showMaximized();
+    this->setWindowTitle("All Transportation Means Available");
+
     GUI_management::applyStylesheet(ui->Container, file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
     vector<QWidget *> widgets=transportationCreate();

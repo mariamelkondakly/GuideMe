@@ -18,8 +18,7 @@ public:
 private slots:
     void on_pushButton_clicked();
 
-    void on_lineEdit_2_editingFinished();
-
+\
 private:
     Ui::edit_view *ui;
 };

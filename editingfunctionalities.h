@@ -10,7 +10,7 @@ public:
     static string selectedDestination;
     static string selectedTransportation;
     static bool add(Edge e1,string source,string destination);
-
+    static bool connection();
     static bool deleting();
 
 

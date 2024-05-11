@@ -12,6 +12,8 @@ edit_view::edit_view(QWidget *parent)
     , ui(new Ui::edit_view)
 {
     ui->setupUi(this);
+    this->showMaximized();
+    this->setWindowTitle("Adding a New Transportation");
     GUI_management::applyStylesheet(ui->label_3,file_management::css_path+"/titleLabel.css");
     GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/normalLabels.css");
@@ -44,7 +46,7 @@ void edit_view::on_pushButton_clicked()
     if(!check){
          bool valdation=EditingFunctionalities::add({transportationName,cost},EditingFunctionalities::selectedSource,EditingFunctionalities::selectedDestination);
         if(!valdation){
-             ui->label_4->setText("the transportation is already exist !!");
+             ui->label_4->setText("the transportation is already exist.");
          }
         else{
             hide();
@@ -54,12 +56,8 @@ void edit_view::on_pushButton_clicked()
 
 
      }else
-        ui->label_4->setText("you can only added numbers !!");
+        ui->label_4->setText("you can only added numbers.");
 
 
-}
-
-void edit_view::on_lineEdit_2_editingFinished()
-{
 }
 

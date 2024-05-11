@@ -9,6 +9,8 @@ updatingTransportation::updatingTransportation(QWidget *parent)
     , ui(new Ui::updatingTransportation)
 {
     ui->setupUi(this);
+    this->showMaximized();
+    this->setWindowTitle("Editing the Existing Transportation");
     GUI_management::applyStylesheet(ui->widget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
     GUI_management::applyStylesheet(ui->title, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
     GUI_management::applyStylesheet(ui->Update, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
@@ -16,7 +18,7 @@ updatingTransportation::updatingTransportation(QWidget *parent)
     GUI_management::applyStylesheet(ui->TransportationType, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/textfields.css"));
     GUI_management::applyStylesheet(ui->TransportationCostLabel, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
     GUI_management::applyStylesheet(ui->TransportationTypeLabel, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->TransportationTypeLabel, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/warningLabel.css"));
+    GUI_management::applyStylesheet(ui->warning, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/warningLabel.css"));
 
     ui->warning->setVisible(false);
 }
