@@ -66,16 +66,16 @@ bool EditingFunctionalities::deleting() {
 
 }
 
-    static bool connection(unordered_map<string,unordered_map<string,vector<Edge>>> graph){
+bool EditingFunctionalities::connection(){
 
         unordered_map<string,unordered_map<string,vector<Edge>>> ::iterator it;
         //unordered_map<string,vector<Edge>> map2;
         int counter=0;
         int citiesCounter=0;
-        for(it=graph.begin() ; it !=graph.end() ; it++){
+        for(it=file_management::transportationMap.begin() ; it !=file_management::transportationMap.end() ; it++){
             citiesCounter++;
         }
-        for(it=graph.begin() ; it !=graph.end() ; it++){
+        for(it=file_management::transportationMap.begin() ; it !=file_management::transportationMap.end() ; it++){
             unordered_map<string,vector<Edge>> ::iterator it2;
             for(it2=it->second.begin() ; it2 !=it->second.end() ; it2++){
                 counter++;

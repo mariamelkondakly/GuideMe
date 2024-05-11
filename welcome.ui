@@ -90,7 +90,7 @@
         <property name="font">
          <font>
           <family>Sitka Heading Semibold</family>
-          <pointsize>72</pointsize>
+          <pointsize>105</pointsize>
           <bold>true</bold>
          </font>
         </property>
@@ -98,7 +98,7 @@
          <string notr="true">rgb(255, 255, 255)</string>
         </property>
         <property name="text">
-         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:72pt;&quot;&gt;Route Finder&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:120pt;&quot;&gt;Route Finder&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
        </widget>
       </item>

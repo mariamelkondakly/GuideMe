@@ -17,9 +17,10 @@ int main(int argc, char* argv[]) {
     file_management::read();
     file_management::readFile();
     file_management::test();
-    file_management::test2();
+
     QApplication a(argc, argv);
     welcome f;
     f.show();
+
     return a.exec();
 }

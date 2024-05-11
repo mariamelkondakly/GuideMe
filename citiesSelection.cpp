@@ -17,6 +17,8 @@ citiesSelection::citiesSelection(QWidget *parent)
     , ui(new Ui::citiesSelection)
 {
     ui->setupUi(this);
+    this->showMaximized();
+    this->setWindowTitle("Cities selection");
     GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->title, file_management::css_path+"/titleLabel.css");
     GUI_management::applyStylesheet(ui->next, file_management::css_path+"/PushButton.css");
