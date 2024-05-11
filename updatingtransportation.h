@@ -15,9 +15,11 @@ public:
     explicit updatingTransportation(QWidget *parent = nullptr);
     ~updatingTransportation();
 
+private slots:
+    void on_Update_clicked();
+
 private:
     Ui::updatingTransportation *ui;
-    void on_Update_clicked();
 };
 
 #endif // UPDATINGTRANSPORTATION_H

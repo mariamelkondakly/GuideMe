@@ -87,13 +87,13 @@ void transportationDisplay::handleSelectButtonClicked()
         if(editorialFunctions::deleteFlag){
             QMessageBox alert;
 
-            alert.setText("This is a deletion prrocess and cannot be reverted");
+            alert.setText("This is a deletion process and cannot be reverted.");
             alert.setInformativeText("Are you sure you want to delete?");
             alert.setStandardButtons(QMessageBox::Yes | QMessageBox::Cancel);
             alert.setDefaultButton(QMessageBox::Cancel);
             int ret=alert.exec();
 
-            QLabel *warning=new QLabel("This is last Transportation. It can't be deleted.");
+            QLabel *warning=new QLabel("This is last Transportation, it can't be deleted.");
             GUI_management::applyStylesheet(warning, file_management::css_path+("/warningLabel.css"));
             warning->setVisible(false);
             ui->verticalLayout->addWidget(warning);

@@ -71,7 +71,7 @@
            <x>0</x>
            <y>0</y>
            <width>1246</width>
-           <height>553</height>
+           <height>540</height>
           </rect>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -91,7 +91,7 @@
         <item>
          <widget class="QPushButton" name="pushButton_2">
           <property name="text">
-           <string>Retrun To Home</string>
+           <string>Return To Home</string>
           </property>
          </widget>
         </item>
