@@ -38,6 +38,7 @@ cities::cities(QWidget *parent)
     cout<<"Vec size "<<vec.size()<<endl;
     for (int i=0 ; i<vec.size();i++) {
         ui->verticalLayout->addWidget(vec[i]);
+        ui->verticalLayout->setStretch(i,5);
     }
     Traversal::unvisited(EditingFunctionalities::selectedSource);
 }
@@ -53,14 +54,16 @@ vector<QWidget*> cities::citiesDisplay(vector<QPair<std::string,std::string>> ve
         QWidget *containerWidget = new QWidget();
         QWidget *itemWidget = new QWidget();
         QString city = QString::fromStdString(vec_cities[i]);
+        QLabel *imgLabel = new QLabel();
         for(int j=0 ; j<vector.size();j++){
             if(vec_cities[i]==vector[j].first){
                 QString path = QString::fromStdString(vector[j].second);
-                QString ayHaga="";
-                ayHaga+="QWidget { background-image: url(";
-                ayHaga+=path;
-                ayHaga+=");}";
-                containerWidget->setStyleSheet(ayHaga);
+                // QString ayHaga="";
+                // ayHaga+="QWidget { background-image: url(";
+                // ayHaga+=path;
+                // ayHaga+=");}";
+                imgLabel->setPixmap(path);
+                imgLabel->setScaledContents(true);
                 break;
              }
         }
@@ -72,6 +75,8 @@ vector<QWidget*> cities::citiesDisplay(vector<QPair<std::string,std::string>> ve
         itemWidget->setLayout(layout);
         QVBoxLayout *layout2=new QVBoxLayout();
         QSpacerItem *verticalSpacer = new QSpacerItem(20, 900, QSizePolicy::Expanding, QSizePolicy::Expanding);
+        layout2->addWidget(imgLabel);
+
         layout2->addSpacerItem(verticalSpacer);
         layout2->addWidget(itemWidget);
         containerWidget->setLayout(layout2);
