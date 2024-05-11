@@ -1,44 +1,114 @@
 # ninja log v5
-7	762	7371413710150292	GuideMe_autogen/timestamp	5ec054797fdedd7d
-7	762	7371413710150292	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-1948	6388	7371375149883506	CMakeFiles/GuideMe.dir/editingfunctionalities.cpp.obj	d8a56e53b7ad76f5
+10	259	7371531372677139	GuideMe_autogen/timestamp	5ec054797fdedd7d
+1414	6271	7371506424472020	CMakeFiles/GuideMe.dir/editingfunctionalities.cpp.obj	d8a56e53b7ad76f5
 1175	5098	7356132474923435	CMakeFiles/GuideMe.dir/mainwindow.cpp.obj	8f5830fd02ed9a31
-7	762	7371413710150292	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
-765	4064	7371413743778905	CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj	de6f429546161fff
-7	762	7371413710150292	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-6349	7268	7371413775760108	GuideMe.exe	744d15701ea6d151
-762	3572	7371413738870443	CMakeFiles/GuideMe.dir/main.cpp.obj	a3724c8c418274c
+10	259	7371531372677139	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+21	2753	7371508310869454	CMakeFiles/GuideMe.dir/GuideMe_autogen/mocs_compilation.cpp.obj	de6f429546161fff
+10	259	7371531372677139	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+10	259	7371531372677139	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+7635	9189	7371531461789008	GuideMe.exe	744d15701ea6d151
+1074	5571	7371506782440935	CMakeFiles/GuideMe.dir/main.cpp.obj	a3724c8c418274c
 255	4249	7371377168910605	CMakeFiles/GuideMe.dir/file_management.cpp.obj	7c9680fd5a62d09b
 6	1034	7371371406150275	build.ninja	cb9e246314751ea7
 6	109	7354356501470904	.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake	1ae7071c69bdb8fb
 6	109	7354356501470904	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_GuideMe.cmake	1ae7071c69bdb8fb
 229	2202	7356157915456847	CMakeFiles/GuideMe.dir/editorialfunctions.cpp.obj	e168805835df0833
-767	3710	7371413740238521	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+279	3741	7371531407487761	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+332	3929	7371531409433719	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
 885	3685	7363948869185957	CMakeFiles/GuideMe.dir/gui_management.cpp.obj	e0a45b6910f3e413
-787	3831	7371413741459512	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
-774	4174	7371413744876931	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
 1966	6411	7371375150106910	CMakeFiles/GuideMe.dir/traversal.cpp.obj	8d6ccfe5e89b9fcd
-772	3962	7371413742746576	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
-777	3676	7371413739900739	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
-785	4222	7371413745360215	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
+300	4289	7371531412969833	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
+283	4192	7371531411988455	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
+309	3630	7371531406392824	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
+335	4410	7371531414221036	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
 1692	1937	7371375105266349	GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
 1692	1937	7371375105266349	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp	8d917b328ee7d5d3
-782	4029	7371413743438023	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
+324	4433	7371531414459681	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
 1993	8654	7371375172515326	CMakeFiles/GuideMe.dir/GuideMe_autogen/EWIEGA46WW/qrc_images.cpp.obj	e65ef54e9dec6edd
-770	6349	7371413766619073	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+286	7634	7371531446460030	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
 1551	6341	7359630917156917	CMakeFiles/GuideMe.dir/citieslook.cpp.obj	e2f0d6d3ddab3563
-806	4319	7371413746330122	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
-7	193	7371415257209350	GuideMe_autogen/timestamp	5ec054797fdedd7d
-7	193	7371415257209350	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-7	193	7371415257209350	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
-7	193	7371415257209350	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
-207	3216	7371415287433075	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
-233	3284	7371415288105536	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
-225	3332	7371415288579065	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
-220	3508	7371415290351761	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
-211	3596	7371415291214157	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
-214	3748	7371415292754009	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
-237	3764	7371415292908413	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
-230	3895	7371415294211494	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
-217	5928	7371415314555630	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
-5928	6767	7371415322884066	GuideMe.exe	744d15701ea6d151
+329	4677	7371531416877875	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
+22	276	7371532700836455	GuideMe_autogen/timestamp	5ec054797fdedd7d
+22	276	7371532700836455	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+22	276	7371532700836455	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+22	276	7371532700836455	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+296	3807	7371532736081340	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+319	3984	7371532737894872	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
+332	3986	7371532737894872	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
+300	4216	7371532740198164	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
+307	4373	7371532741768682	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
+337	4382	7371532741894357	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
+313	4521	7371532743274155	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
+324	4733	7371532745378577	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
+303	8114	7371532779170035	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+8114	9611	7371532794017615	GuideMe.exe	744d15701ea6d151
+24	280	7371533344064422	GuideMe_autogen/timestamp	5ec054797fdedd7d
+24	280	7371533344064422	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+24	280	7371533344064422	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+24	280	7371533344064422	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+301	3566	7371533376916488	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+341	3744	7371533378731122	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
+355	3814	7371533379412507	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
+305	3855	7371533379817072	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
+344	4046	7371533381722729	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
+348	4115	7371533382412081	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
+308	4128	7371533382566757	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
+351	4434	7371533385567203	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
+318	7198	7371533413199073	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+7198	8706	7371533428167428	GuideMe.exe	744d15701ea6d151
+20	272	7371534095413851	GuideMe_autogen/timestamp	5ec054797fdedd7d
+20	272	7371534095413851	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+20	272	7371534095413851	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+20	272	7371534095413851	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+317	3469	7371534127373614	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
+293	3609	7371534128761856	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+326	3690	7371534129563212	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
+302	3908	7371534131749879	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
+297	3949	7371534132158884	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
+309	4085	7371534133543895	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
+338	4161	7371534134277219	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
+335	4381	7371534136472719	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
+306	7636	7371534168966896	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+7637	9255	7371534185062747	GuideMe.exe	744d15701ea6d151
+18	245	7371534757406988	GuideMe_autogen/timestamp	5ec054797fdedd7d
+18	245	7371534757406988	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+18	245	7371534757406988	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+18	245	7371534757406988	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+265	4067	7371534795585116	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+287	4163	7371534796556479	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
+353	4225	7371534797186850	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
+272	4664	7371534801527714	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
+276	4713	7371534802061216	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
+290	4792	7371534802860787	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
+280	4847	7371534803383518	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
+338	5103	7371534805957472	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
+269	8027	7371534835159569	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+8028	9541	7371534850171370	GuideMe.exe	744d15701ea6d151
+22	294	7371535446856766	GuideMe_autogen/timestamp	5ec054797fdedd7d
+22	294	7371535446856766	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+22	294	7371535446856766	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+22	294	7371535446856766	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+337	3612	7371535479977889	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
+314	3697	7371535480903573	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+367	3890	7371535482787070	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
+321	4248	7371535486358138	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
+326	4250	7371535486358138	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
+334	4293	7371535486858071	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
+371	4404	7371535487957140	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
+340	4608	7371535489986623	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
+318	7434	7371535518219570	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+7434	8972	7371535533459578	GuideMe.exe	744d15701ea6d151
+22	277	7371537034079842	GuideMe_autogen/timestamp	5ec054797fdedd7d
+22	277	7371537034079842	GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+22	277	7371537034079842	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/timestamp	5ec054797fdedd7d
+22	277	7371537034079842	C:/Users/MARIAM/qt Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/GuideMe_autogen/mocs_compilation.cpp	5ec054797fdedd7d
+315	3499	7371537066300053	CMakeFiles/GuideMe.dir/welcome.cpp.obj	be1a29ac624fd52d
+297	3687	7371537068171568	CMakeFiles/GuideMe.dir/editorialOptions.cpp.obj	78ccf7bf7e99ce22
+325	3713	7371537068449328	CMakeFiles/GuideMe.dir/edit_view.cpp.obj	27d8af0d8c7428a
+321	4184	7371537073075542	CMakeFiles/GuideMe.dir/updatingtransportation.cpp.obj	df3399248b17fbd0
+311	4197	7371537073263150	CMakeFiles/GuideMe.dir/transportationdisplay.cpp.obj	5eb8ad0c740836c9
+304	4283	7371537074100640	CMakeFiles/GuideMe.dir/citiesSelection.cpp.obj	79a160408d87246b
+318	4291	7371537074218381	CMakeFiles/GuideMe.dir/dataentry.cpp.obj	15bf5a0c9148e4a
+328	4446	7371537075748953	CMakeFiles/GuideMe.dir/result.cpp.obj	3d6e09ff9be92d1
+301	7371	7371537105002726	CMakeFiles/GuideMe.dir/cities.cpp.obj	cd0275dee6ffeaa6
+7371	8870	7371537119878457	GuideMe.exe	744d15701ea6d151

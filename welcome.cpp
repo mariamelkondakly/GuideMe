@@ -11,11 +11,14 @@ welcome::welcome(QWidget *parent)
 
     //----------////////
     ui->setupUi(this);
+    this->setWindowTitle("Welcome");
     GUI_management::applyStylesheet(ui->widget,file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
     GUI_management::applyStylesheet(ui->pushButton, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->pushButton_2, file_management::css_path+"/PushButton.css");
     GUI_management::applyStylesheet(ui->label_2, file_management::css_path+"/welcometitle.css");
+    this->showMaximized();
+
 }
 
 welcome::~welcome()

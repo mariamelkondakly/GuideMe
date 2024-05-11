@@ -23,7 +23,8 @@ cities::cities(QWidget *parent)
 {
 
     ui->setupUi(this);
-
+    this->showMaximized();
+    this->setWindowTitle("Cities");
     GUI_management::applyStylesheet(ui->scrollAreaWidgetContents,file_management::css_path+"/specialBackground.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
     if (Traversal::bfsflag==false){
