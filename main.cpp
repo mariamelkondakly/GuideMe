@@ -16,9 +16,11 @@ using namespace std;
 int main(int argc, char* argv[]) {
     file_management::read();
     file_management::readFile();
+    file_management::test();
 
     QApplication a(argc, argv);
     welcome f;
     f.show();
+
     return a.exec();
 }
