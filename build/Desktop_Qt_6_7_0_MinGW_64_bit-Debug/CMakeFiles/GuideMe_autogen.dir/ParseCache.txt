@@ -493,6 +493,7 @@ C:/Users/MARIAM/qt Projects/GuideMe/citiesSelection.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qversiontagging.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qxptype_traits.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtCore/qyieldcpu.h
+ mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/QPalette
  mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qaction.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h
  mdp:C:/Qt/6.7.0/mingw_64/include/QtGui/qbrush.h

@@ -22,7 +22,6 @@ transportationDisplay::transportationDisplay(QWidget *parent)
 
     GUI_management::applyStylesheet(ui->Container, file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
-    GUI_management::applyStylesheet(ui->pushButton,file_management::css_path+"/PushButton.css");
     vector<QWidget *> widgets=transportationCreate();
     for (int i=0;i<widgets.size();i++) {
         ui->verticalLayout->addWidget(widgets[i]);
@@ -34,10 +33,8 @@ transportationDisplay::transportationDisplay(QWidget *parent)
     QSpacerItem *horizontalSpacer = new QSpacerItem(900, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
     buttonLooks->addSpacerItem(horizontalSpacer);
     buttonLooks->addWidget(homeButton);
-    if(editorialFunctions::addFlag){
-        ui->verticalLayout->addLayout(buttonLooks);
+    ui->verticalLayout->addLayout(buttonLooks);
 
-    }
 
 
 
@@ -142,10 +139,4 @@ void transportationDisplay::homeButtonClicked(){
 
 }
 
-void transportationDisplay::on_pushButton_clicked()
-{
-    hide();
-    welcome *w=new welcome();
-    w->show();
-}
 

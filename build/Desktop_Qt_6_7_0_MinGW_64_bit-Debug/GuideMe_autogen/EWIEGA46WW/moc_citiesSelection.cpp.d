@@ -136,6 +136,7 @@ C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/G
   C:/Qt/6.7.0/mingw_64/include/QtCore/qversiontagging.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qxptype_traits.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/qyieldcpu.h \
+  C:/Qt/6.7.0/mingw_64/include/QtGui/QPalette \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qaction.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
   C:/Qt/6.7.0/mingw_64/include/QtGui/qbrush.h \
@@ -403,6 +404,7 @@ C:/Users/MARIAM/qt\ Projects/GuideMe/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/G
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/GUI_management.h \
+  C:/Users/MARIAM/qt\ Projects/GuideMe/citiesSelection.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/editingfunctionalities.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/file_management.h \
   C:/Users/MARIAM/qt\ Projects/GuideMe/transportationdisplay.h
