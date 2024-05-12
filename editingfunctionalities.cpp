@@ -9,7 +9,7 @@ string EditingFunctionalities::selectedTransportation;
 
 bool EditingFunctionalities::add(Edge e1,string source,string destination){
 
-    //check source and destaination waiting
+
     bool exist=0;
     for (int i = 0; i < file_management::transportationMap[source][destination].size() ; i++) {
         if(file_management::transportationMap[source][destination][i].transportation == e1.transportation){
@@ -50,14 +50,14 @@ bool EditingFunctionalities::deleting() {
     for (auto it = transportationMap.begin(); it != transportationMap.end(); ++it) {
         if (it->transportation == EditingFunctionalities::selectedTransportation) {
             transportationMap.erase(it);
-            return true; // Deletion successful
+            break; // Deletion successful
         }
     }
 
-    transportationMap = file_management::transportationMap[EditingFunctionalities::selectedDestination][EditingFunctionalities::selectedSource];
-    for (auto it = transportationMap.begin(); it != transportationMap.end(); ++it) {
+    auto& transportationMap2 = file_management::transportationMap[EditingFunctionalities::selectedDestination][EditingFunctionalities::selectedSource];
+    for (auto it = transportationMap2.begin(); it != transportationMap2.end(); ++it) {
         if (it->transportation == EditingFunctionalities::selectedTransportation) {
-            transportationMap.erase(it);
+            transportationMap2.erase(it);
             return true; // Deletion successful
         }
     }

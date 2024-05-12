@@ -15,6 +15,9 @@ public:
     ~transportationDisplay();
 
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::transportationDisplay *ui;
     vector<QWidget *> transportationCreate();

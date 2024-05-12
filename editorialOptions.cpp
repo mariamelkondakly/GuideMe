@@ -1,7 +1,7 @@
 #include "editorialOptions.h"
 #include "ui_editorialOptions.h"
 #include "file_management.h"
-#include "updatingtransportation.h"
+
 #include "GUI_management.h"
 #include "welcome.h"
 #include <QDir>

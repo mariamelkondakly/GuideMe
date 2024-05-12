@@ -15,6 +15,7 @@ public:
     explicit DataEntry(QWidget *parent = nullptr);
     ~DataEntry();
     static int budget ;
+    static int number_visited_governates;
     bool check_budget;
 private slots:
     void on_pushButton_clicked();
@@ -28,6 +29,7 @@ private slots:
     void on_lineEdit_editingFinished();
 
     void on_back1putton_clicked();
+
 
 private:
     Ui::DataEntry *ui;

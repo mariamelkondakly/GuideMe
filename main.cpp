@@ -7,16 +7,14 @@
 #include "welcome.h"
 #include "updatingtransportation.h"
 //#include <iostream>
-#include "transportationdisplay.h"
-#include"welcome.h"
-#include"result.h"
+
 using namespace std;
 
 
 int main(int argc, char* argv[]) {
     file_management::read();
     file_management::readFile();
-    file_management::test();
+  //  file_management::test();
 
     QApplication a(argc, argv);
     welcome f;

@@ -11,7 +11,6 @@ using namespace std;
 string EditingFunctionalities::selectedSource; // Definition for selectedSource
 string EditingFunctionalities::selectedDestination;
 bool found=false;
-
 citiesSelection::citiesSelection(QWidget *parent)
     : QWidget(parent)
     , ui(new Ui::citiesSelection)
@@ -29,6 +28,9 @@ citiesSelection::citiesSelection(QWidget *parent)
     GUI_management::applyStylesheet(ui->destination, file_management::css_path+"/textfields.css");
     GUI_management::applyStylesheet(ui->source, file_management::css_path+"/textfields.css");
     ui->warning->setVisible(false);
+
+    EditingFunctionalities::selectedSource="";
+    EditingFunctionalities::selectedDestination="";
 
 }
 
@@ -58,9 +60,7 @@ void citiesSelection::on_next_clicked()
     }
     else{
         if (file_management::transportationMap.find(EditingFunctionalities::selectedSource) != file_management::transportationMap.end()) {
-            if (file_management::transportationMap[EditingFunctionalities::selectedSource].find(EditingFunctionalities::selectedDestination) !=
-                file_management::transportationMap[EditingFunctionalities::selectedSource].end())
-            {
+            if (file_management::transportationMap.find(EditingFunctionalities::selectedDestination) != file_management::transportationMap.end()) {
                 ui->warning->setVisible(false);
                 if(editorialFunctions::addFlag){
                     hide();

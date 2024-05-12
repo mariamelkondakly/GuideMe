@@ -21,7 +21,7 @@ Result::Result(QWidget *parent)
 
 void Result::searching_roads(string node,string distinatation,unordered_map<string, bool> &vistited, deque<pair<pair<string, string>, pair<string, int>>>&road,int total)
 {
-    if(vistited[node]||total>DataEntry::budget)return;
+    if(vistited[node]||total>DataEntry::budget||road.size()+1>DataEntry::number_visited_governates)return;
 
        vistited[node]=true;
 
@@ -31,7 +31,7 @@ void Result::searching_roads(string node,string distinatation,unordered_map<stri
             string source=temp.first.first, dist=temp.first.second;
             string transportation=temp.second.first;
             int cost=temp.second.second;
-            path+=source+" -> "+dist+" : "+transportation+" "+to_string(cost)+"EGP\n";
+            path+=source+" -> "+dist+" : "+transportation+" "+to_string(cost)+"EGP\n\n";
         }
         if(total<=DataEntry::budget)
         allpaths.insert({total,path});
@@ -67,6 +67,12 @@ void Result::display_roads()
         GUI_management::applyStylesheet(label_path, file_management::css_path+"/Result_Widgets.css");
         container->addWidget(label_path);
         cnt++;
+    }
+    if(allpaths.size()==0){
+         QLabel *label_notfound=new QLabel("There is no way with this budget");
+        GUI_management::applyStylesheet(label_notfound, file_management::css_path+"/Result_Widgets.css");
+
+        container->addWidget(label_notfound);
     }
     QWidget *parent=new QWidget();
     parent->setLayout(container);

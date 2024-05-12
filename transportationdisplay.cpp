@@ -22,6 +22,7 @@ transportationDisplay::transportationDisplay(QWidget *parent)
 
     GUI_management::applyStylesheet(ui->Container, file_management::css_path+"/background.css");
     GUI_management::applyStylesheet(ui->label,file_management::css_path+"/titleLabel.css");
+    GUI_management::applyStylesheet(ui->pushButton,file_management::css_path+"/PushButton.css");
     vector<QWidget *> widgets=transportationCreate();
     for (int i=0;i<widgets.size();i++) {
         ui->verticalLayout->addWidget(widgets[i]);
@@ -35,6 +36,7 @@ transportationDisplay::transportationDisplay(QWidget *parent)
     buttonLooks->addWidget(homeButton);
     if(editorialFunctions::addFlag){
         ui->verticalLayout->addLayout(buttonLooks);
+
     }
 
 
@@ -77,6 +79,12 @@ vector<QWidget *>transportationDisplay::transportationCreate()
         transportationWidgets.push_back(item);
 
 
+    }
+    if(file_management::transportationMap[EditingFunctionalities::selectedSource][EditingFunctionalities::selectedDestination].size()==0){
+        QLabel *label_notfound=new QLabel("There is no way between the two cities");
+        GUI_management::applyStylesheet(label_notfound, file_management::css_path+"/Result_Widgets.css");
+
+      transportationWidgets.push_back(label_notfound);
     }
     return transportationWidgets;
 }
@@ -133,3 +141,11 @@ void transportationDisplay::homeButtonClicked(){
     window->show();
 
 }
+
+void transportationDisplay::on_pushButton_clicked()
+{
+    hide();
+    welcome *w=new welcome();
+    w->show();
+}
+

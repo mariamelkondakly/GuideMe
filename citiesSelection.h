@@ -10,6 +10,10 @@
 #include<QFile>
 #include<iostream>
 #include"transportationdisplay.h"
+#include <QWidget>
+#include <QPalette>
+#include "citiesSelection.h"
+
 namespace Ui {
 class citiesSelection;
 }

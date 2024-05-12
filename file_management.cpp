@@ -13,7 +13,7 @@ using namespace std;
 
 
 
-QString file_management::css_path="C:/Users/M/OneDrive/Documents/GitHub/GuideMe/CSS_styling";
+QString file_management::css_path="C:/Users/mosta_ckzl9f2/OneDrive/Documents/GitHub/GuideMe/CSS_styling";
 unordered_map<string, unordered_map<string, vector<Edge>>> file_management::transportationMap;
 QDir file_management::dir("C:/Users/M/OneDrive/Documents/GitHub");
 
@@ -62,8 +62,10 @@ void file_management::write()
         for (const auto& destination_data : source_data.second) {
             if(!written[{source_data.first,destination_data.first}])
             {
+                if( destination_data.second.size()){
             data_write << source_data.first << " - "
                        << destination_data.first << " ";
+                }
             for (const auto& edge : destination_data.second) {
                 data_write<< edge.transportation << " "
                            << edge.cost <<" ";
