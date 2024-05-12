@@ -16,14 +16,14 @@ updatingTransportation::updatingTransportation(QWidget *parent)
     ui->setupUi(this);
     this->showMaximized();
     this->setWindowTitle("Editing the Existing Transportation");
-    GUI_management::applyStylesheet(ui->widget, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/background.css"));
-    GUI_management::applyStylesheet(ui->title, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/titleLabel.css"));
-    GUI_management::applyStylesheet(ui->Update, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/PushButton.css"));
-    GUI_management::applyStylesheet(ui->TransportationCost, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/textfields.css"));
-    GUI_management::applyStylesheet(ui->TransportationType, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/textfields.css"));
-    GUI_management::applyStylesheet(ui->TransportationCostLabel, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->TransportationTypeLabel, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/normalLabels.css"));
-    GUI_management::applyStylesheet(ui->warning, file_management::dir.relativeFilePath("/GuideMe/CSS_styling/warningLabel.css"));
+    GUI_management::applyStylesheet(ui->widget, file_management::css_path+("/background.css"));
+    GUI_management::applyStylesheet(ui->title, file_management::css_path+("/titleLabel.css"));
+    GUI_management::applyStylesheet(ui->Update, file_management::css_path+("/PushButton.css"));
+    GUI_management::applyStylesheet(ui->TransportationCost, file_management::css_path+("/textfields.css"));
+    GUI_management::applyStylesheet(ui->TransportationType, file_management::css_path+("/textfields.css"));
+    GUI_management::applyStylesheet(ui->TransportationCostLabel,file_management::css_path+("/normalLabels.css"));
+    GUI_management::applyStylesheet(ui->TransportationTypeLabel, file_management::css_path+("/normalLabels.css"));
+    GUI_management::applyStylesheet(ui->warning, file_management::css_path+("/warningLabel.css"));
 
     ui->warning->setVisible(false);
 }

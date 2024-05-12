@@ -1,27 +1,27 @@
-Cairo - Gharbia microbus 60 bus 45 
-Cairo - Alexandria microbus 80 train 100 
-Cairo - Giza metro 15 bus 15 
-Cairo - Ismailia microbus 40 bus 30 
-Cairo - Hurghada microbus 100 bus 80 
-Gharbia - Alexandria microbus 45 bus 25 
-Beheira - Alexandria microbus 50 bus 27 
-Beheira - Qalyubia microbus 70 train 60 bus 50 
-Alexandria - Matrouh microbus 50 bus 30 
-Aswan - Luxor microbus 43 bus 50 
-Qalyubia - Kafr-ElSheikh microbus 40 bus 30 
-Monufia - Asyut microbus 90 bus 70 train 100 
-Giza - Luxor microbus 100 bus 80 train 120 
-Giza - Faiyum microbus 35 bus 25 
-Ismailia - Suez microbus 50 bus 40 
-Hurghada - Sinai train 100 bus 60 
-Asyut - Sohag microbus 40 
-Asyut - Minya train 50 
-Luxor - Qena microbus 30 train 50 
-Dakahlia - Sohag bus 100 
-Faiyum - Sharqia microbus 70 train 90 
-Kafr-ElSheikh - Damietta microbus 65 bus 45 
-Red-Sea - Qena bus 100 
-Qena - Sohag microbus 25 train 40 
-Damietta - Port-Said microbus 60 bus 40 
-Minya - Beni-Suef microbus 50 bus 40 
-Sohag - ElWadi-ElGedid microbus 70 bus 50 
+Cairo - Gharbia Microbus 60 Bus 45 
+Cairo - Alexandria Microbus 80 Train 100 
+Cairo - Giza Metro 15 Bus 15 
+Cairo - Ismailia Microbus 40 Bus 30 
+Cairo - Hurghada Microbus 100 Bus 80 
+Gharbia - Alexandria Microbus 45 Bus 25 
+Beheira - Alexandria Microbus 50 Bus 27 
+Beheira - Qalyubia Microbus 70 Train 60 Bus 50 
+Alexandria - Matrouh Microbus 50 Bus 30 
+Aswan - Luxor Microbus 43 Bus 50 
+Qalyubia - Kafr-ElSheikh Microbus 40 Bus 30 
+Monufia - Asyut Microbus 90 Bus 70 Train 100 
+Giza - Luxor Microbus 100 Bus 80 Train 120 
+Giza - Faiyum Microbus 35 Bus 25 
+Ismailia - Suez Microbus 50 Bus 40 
+Hurghada - Sinai Train 100 Bus 60 
+Asyut - Sohag Microbus 40 
+Asyut - Minya Train 50 
+Luxor - Qena Microbus 30 Train 50 
+Dakahlia - Sohag Bus 100 
+Faiyum - Sharqia Microbus 70 Train 90 
+Kafr-ElSheikh - Damietta Microbus 65 Bus 45 
+Red-Sea - Qena Bus 100 
+Qena - Sohag Microbus 25 Train 40 
+Damietta - Port-Said Microbus 60 Bus 40 
+Minya - Beni-Suef Microbus 50 Bus 40 
+Sohag - ElWadi-ElGedid Microbus 70 Bus 50 
